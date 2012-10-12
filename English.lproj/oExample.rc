@@ -1,0 +1,12 @@
+
+1   BITMAP  DISCARDABLE     "OEXAMPLE.BMP"
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1000			"Example Library"
+	2000			"Example Object"
+	8000			"$testMethod:$testMethod() Just a test method that returns a test string."
+	31000			"FrameworkWndProc"
+END
+
+
