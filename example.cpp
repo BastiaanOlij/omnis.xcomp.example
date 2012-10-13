@@ -19,7 +19,6 @@ qint mainlib::ecm_connect(void) {
 	lvNVObject.flags = 0;
 	lvNVObject.groupResID = 0;
 	lvNVObject.newObjectFunction = (void * (*)()) &(oNVExample::newObject);
-	lvNVObject.destructObjectFunc = (void (*)(oBaseNVComponent*)) &(oNVExample::destructObj);
 	
 	mObjects.push(&lvNVObject);
 	
@@ -28,7 +27,6 @@ qint mainlib::ecm_connect(void) {
 	lvComponent.componentID = 2000;
 	lvComponent.bitmapID = 1;
 	lvComponent.newObjectFunction = (void * (*)()) &(oExample::newObject);
-	lvComponent.destructObjectFunc = (void (*)(oBaseVisComponent*)) &(oExample::destructObj);
 		
 	mComponents.push(&lvComponent);
 	

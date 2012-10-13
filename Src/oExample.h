@@ -19,7 +19,6 @@ public:
 	~oExample(void);
 	
 	static oExample *			newObject(void);
-	static void					destructObj(oExample *pDestruct);
 
 	virtual void				doPaint(HDC pHDC);													// Do our drawing in here
 

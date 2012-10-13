@@ -28,12 +28,6 @@ oNVExample * oNVExample::newObject(void) {
 	return lvNewExample;
 };
 
-// destruct our object
-void oNVExample::destructObj(oNVExample *pDestruct){
-	delete pDestruct;
-};
-
-
 // create a copy of pCopy, this MUST be implemented in a subclass
 void oNVExample::copyObject(oBaseNVComponent *pCopy) {
 	// no members to copy just yet...

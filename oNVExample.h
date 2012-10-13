@@ -19,7 +19,6 @@ public:
 	~oNVExample(void);
 		
 	static oNVExample *			newObject(void);
-	static void					destructObj(oNVExample *pDestruct);
 	
 	virtual void				copyObject(oBaseNVComponent *pCopy);								// create a copy of pCopy, this MUST be implemented in a subclass
 

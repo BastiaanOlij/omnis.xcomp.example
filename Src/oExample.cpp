@@ -26,12 +26,6 @@ oExample * oExample::newObject(void) {
 	return lvNewExample;
 };
 
-// destruct our object
-void oExample::destructObj(oExample *pDestruct){
-	delete pDestruct;
-};
-
-
 // Do our drawing in here
 void oExample::doPaint(HDC pHDC) {
 	// call base class to draw background
