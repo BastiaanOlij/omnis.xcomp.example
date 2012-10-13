@@ -3,12 +3,21 @@
  *  ===================
  *
  *  oExample.cpp
- *  Example implementation of a non visual component
+ *  Example implementation of a visual component
  *
  *  Bastiaan Olij
  */
 
 #include "oExample.h"
+
+// we only implement our constructors/destructors to get some logging going to find out if all is well...
+oExample::oExample(void) {
+	addToTraceLog("Constructing oExample %li",(uint)this);
+};
+
+oExample::~oExample(void) {
+	addToTraceLog("Destructing oExample %li",(uint)this);	
+};
 
 // instantiate a new object
 oExample * oExample::newObject(void) {
@@ -16,6 +25,12 @@ oExample * oExample::newObject(void) {
 	
 	return lvNewExample;
 };
+
+// destruct our object
+void oExample::destructObj(oExample *pDestruct){
+	delete pDestruct;
+};
+
 
 // Do our drawing in here
 void oExample::doPaint(HDC pHDC) {
@@ -55,18 +70,17 @@ qMethods * oExample::methods(void) {
 // invoke a method
 int	oExample::invokeMethod(qint pMethodId, EXTCompInfo* pECI) {
 	switch (pMethodId) {
-		case 1:
+		case 1: {
 			EXTfldval	lvResult;
-			str255		lvString("Hello world!");
+			str255		lvString("Hello world from our visual object!");
 			
 			lvResult.setChar(lvString);
 			
 			ECOaddParam(pECI, &lvResult);
-			return 1L;				
-			
-			break;
-		default:
-			
-			break;
+			return 1L;							
+		}; break;
+		default: {
+			return oBaseVisComponent::invokeMethod(pMethodId, pECI);
+		}; break;
 	}
 };

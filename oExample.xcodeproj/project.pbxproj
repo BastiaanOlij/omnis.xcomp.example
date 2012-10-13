@@ -72,6 +72,11 @@
 		ACB85D4F16275A3C00C45C63 /* oXCompLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB85D4C16275A3C00C45C63 /* oXCompLib.cpp */; };
 		ACB85D5016275A3C00C45C63 /* oXCompLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB85D4C16275A3C00C45C63 /* oXCompLib.cpp */; };
 		ACB85D5116275A3C00C45C63 /* oXCompLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB85D4C16275A3C00C45C63 /* oXCompLib.cpp */; };
+		ACBCC23816299BAF006DEF4C /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACBCC23716299BAF006DEF4C /* oNVExample.cpp */; };
+		ACBCC23916299BAF006DEF4C /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACBCC23716299BAF006DEF4C /* oNVExample.cpp */; };
+		ACBCC23A16299BAF006DEF4C /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACBCC23716299BAF006DEF4C /* oNVExample.cpp */; };
+		ACBCC23B16299BAF006DEF4C /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACBCC23716299BAF006DEF4C /* oNVExample.cpp */; };
+		ACBCC23C16299BAF006DEF4C /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACBCC23716299BAF006DEF4C /* oNVExample.cpp */; };
 		ACFCA2DA161C7574004CD3BC /* oBaseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */; };
 		ACFCA2DB161C7574004CD3BC /* oBaseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */; };
 		ACFCA2DC161C7574004CD3BC /* oBaseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */; };
@@ -177,6 +182,8 @@
 		ACB85D5216275B7D00C45C63 /* xCompStandardIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xCompStandardIncludes.h; path = ../omnis.xcomp.framework/xCompStandardIncludes.h; sourceTree = SOURCE_ROOT; };
 		ACB85D5316275D1900C45C63 /* example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = example.h; sourceTree = "<group>"; };
 		ACBAE45316205D65001A58DD /* qArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qArray.h; path = ../omnis.xcomp.framework/qArray.h; sourceTree = SOURCE_ROOT; };
+		ACBCC23616299BAF006DEF4C /* oNVExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oNVExample.h; sourceTree = "<group>"; };
+		ACBCC23716299BAF006DEF4C /* oNVExample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = oNVExample.cpp; sourceTree = "<group>"; };
 		ACFCA2C4161C7184004CD3BC /* omnis.xcomp.framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = omnis.xcomp.framework.h; path = ../omnis.xcomp.framework/omnis.xcomp.framework.h; sourceTree = SOURCE_ROOT; };
 		ACFCA2D8161C7574004CD3BC /* oBaseComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oBaseComponent.h; path = ../omnis.xcomp.framework/oBaseComponent.h; sourceTree = SOURCE_ROOT; };
 		ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oBaseComponent.cpp; path = ../omnis.xcomp.framework/oBaseComponent.cpp; sourceTree = SOURCE_ROOT; };
@@ -267,6 +274,7 @@
 		08FB77ADFE841716C02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				ACBCC23716299BAF006DEF4C /* oNVExample.cpp */,
 				AC15358A16206AE600AACACB /* oExample.cpp */,
 				AC1535B41620766B00AACACB /* example.cpp */,
 			);
@@ -288,6 +296,7 @@
 		96D631340905093100E0F291 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				ACBCC23616299BAF006DEF4C /* oNVExample.h */,
 				AC15359016206AF300AACACB /* oExample.h */,
 				ACB85D5316275D1900C45C63 /* example.h */,
 			);
@@ -503,6 +512,7 @@
 				AC1535B216206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
 				AC1535B81620766B00AACACB /* example.cpp in Sources */,
 				ACB85D4F16275A3C00C45C63 /* oXCompLib.cpp in Sources */,
+				ACBCC23916299BAF006DEF4C /* oNVExample.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +526,7 @@
 				AC1535B016206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
 				AC1535B61620766B00AACACB /* example.cpp in Sources */,
 				ACB85D5116275A3C00C45C63 /* oXCompLib.cpp in Sources */,
+				ACBCC23A16299BAF006DEF4C /* oNVExample.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +540,7 @@
 				AC1535B316206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
 				AC1535B91620766B00AACACB /* example.cpp in Sources */,
 				ACB85D5016275A3C00C45C63 /* oXCompLib.cpp in Sources */,
+				ACBCC23B16299BAF006DEF4C /* oNVExample.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +554,7 @@
 				AC1535AF16206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
 				AC1535B51620766B00AACACB /* example.cpp in Sources */,
 				ACB85D4E16275A3C00C45C63 /* oXCompLib.cpp in Sources */,
+				ACBCC23C16299BAF006DEF4C /* oNVExample.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +568,7 @@
 				AC1535B116206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
 				AC1535B71620766B00AACACB /* example.cpp in Sources */,
 				ACB85D4D16275A3C00C45C63 /* oXCompLib.cpp in Sources */,
+				ACBCC23816299BAF006DEF4C /* oNVExample.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

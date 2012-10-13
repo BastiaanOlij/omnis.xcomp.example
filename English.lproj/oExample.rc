@@ -5,7 +5,9 @@ STRINGTABLE DISCARDABLE
 BEGIN
 	1000			"Example Library"
 	2000			"Example Object"
+	2100            "Example NVObject"
 	8000			"$testMethod:$testMethod() Just a test method that returns a test string."
+	8100			"$nvTestMethod:$nvTestMethod() Just a test method that returns a test string."
 	31000			"FrameworkWndProc"
 END
 

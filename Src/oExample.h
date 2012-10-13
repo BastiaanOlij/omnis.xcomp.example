@@ -3,7 +3,7 @@
  *  ===================
  *
  *  oExample.h
- *  Example implementation of a non visual component
+ *  Example implementation of a visual component
  *
  *  Bastiaan Olij
  */
@@ -15,7 +15,11 @@
 
 class oExample : public oBaseVisComponent {
 public:
+	oExample(void);
+	~oExample(void);
+	
 	static oExample *			newObject(void);
+	static void					destructObj(oExample *pDestruct);
 
 	virtual void				doPaint(HDC pHDC);													// Do our drawing in here
 

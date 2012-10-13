@@ -12,6 +12,7 @@
 #define exampleh
 
 #include "omnis.xcomp.framework.h"
+#include "oNVExample.h"
 #include "oExample.h"
 
 class mainlib : public oXCompLib {
