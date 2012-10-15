@@ -22,7 +22,11 @@ public:
 	
 	virtual void				copyObject(oBaseNVComponent *pCopy);								// create a copy of pCopy, this MUST be implemented in a subclass
 
-	virtual qMethods *			methods(void);														// return an array of method meta data
+	// properties
+	static  qProperties *		properties(void);													// return an array of property data
+	
+	// methods
+	static  qMethods *			methods(void);														// return array of method meta data
 	virtual int					invokeMethod(qint pMethodId, EXTCompInfo* pECI);					// invoke a method
 	
 };

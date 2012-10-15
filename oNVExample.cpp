@@ -33,7 +33,27 @@ void oNVExample::copyObject(oBaseNVComponent *pCopy) {
 	// no members to copy just yet...
 };
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// properties
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// Implement our property meta data static method. Because static members aren't inherited in the normal sense
+// we're implementing our static function on each (sub)class and call the parents static member.
+// If you don't have properties you could call oBaseVisComponent::properties and skip implementing this but
+// I think it is good practice to implement it even if it is just to say, hey I haven't got any properties.
+qProperties * oNVExample::properties(void) {
+	qProperties *	lvProperties = oBaseNVComponent::properties();
+	
+	// No properties to add just yet..
+	
+	return lvProperties;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// methods
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// This is our array of methods we support
 ECOmethodEvent oNVExampleMethods[] = {
 	//	ID				Resource	Return type		Paramcount		Params					Flags		ExFlags
 	1,					8100,		fftCharacter,	0,				NULL,					0,			0,			// $testMethod	
@@ -41,13 +61,11 @@ ECOmethodEvent oNVExampleMethods[] = {
 
 // return an array of method meta data
 qMethods * oNVExample::methods(void) {
-	if (mMethods==NULL) {
-		mMethods = oBaseNVComponent::methods();
+	qMethods * lvMethods = oBaseNVComponent::methods();
 		
-		mMethods->addElements(oNVExampleMethods, sizeof(oNVExampleMethods) / sizeof(ECOmethodEvent));		
-	};
-	return mMethods;
-	
+	lvMethods->addElements(oNVExampleMethods, sizeof(oNVExampleMethods) / sizeof(ECOmethodEvent));		
+
+	return lvMethods;	
 };
 
 // invoke a method

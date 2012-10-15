@@ -44,7 +44,27 @@ void oExample::doPaint(HDC pHDC) {
 	GDIfillRect( pHDC, &lvRect, lvBrush );	
 };
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// properties
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// Implement our property meta data static method. Because static members aren't inherited in the normal sense
+// we're implementing our static function on each (sub)class and call the parents static member.
+// If you don't have properties you could call oBaseVisComponent::properties and skip implementing this but
+// I think it is good practice to implement it even if it is just to say, hey I haven't got any properties.
+qProperties * oExample::properties(void) {
+	qProperties *	lvProperties = oBaseVisComponent::properties();
+	
+	// No properties to add just yet..
+	
+	return lvProperties;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// methods
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// This is our array of methods we support
 ECOmethodEvent oExampleMethods[] = {
 	//	ID				Resource	Return type		Paramcount		Params					Flags		ExFlags
 	1,					8000,		fftCharacter,	0,				NULL,					0,			0,			// $testMethod	
@@ -52,13 +72,11 @@ ECOmethodEvent oExampleMethods[] = {
 
 // return an array of method meta data
 qMethods * oExample::methods(void) {
-	if (mMethods==NULL) {
-		mMethods = oBaseVisComponent::methods();
+	qMethods * lvMethods = oBaseVisComponent::methods();
 		
-		mMethods->addElements(oExampleMethods, sizeof(oExampleMethods) / sizeof(ECOmethodEvent));		
-	};
-	return mMethods;
-	
+	lvMethods->addElements(oExampleMethods, sizeof(oExampleMethods) / sizeof(ECOmethodEvent));		
+
+	return lvMethods;
 };
 
 // invoke a method
