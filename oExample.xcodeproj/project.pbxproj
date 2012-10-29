@@ -57,11 +57,16 @@
 		AC1535B116206B6100AACACB /* FrameworkWndProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535AE16206B6100AACACB /* FrameworkWndProc.cpp */; };
 		AC1535B216206B6100AACACB /* FrameworkWndProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535AE16206B6100AACACB /* FrameworkWndProc.cpp */; };
 		AC1535B316206B6100AACACB /* FrameworkWndProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535AE16206B6100AACACB /* FrameworkWndProc.cpp */; };
-		AC1535B51620766B00AACACB /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535B41620766B00AACACB /* example.cpp */; };
-		AC1535B61620766B00AACACB /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535B41620766B00AACACB /* example.cpp */; };
-		AC1535B71620766B00AACACB /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535B41620766B00AACACB /* example.cpp */; };
-		AC1535B81620766B00AACACB /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535B41620766B00AACACB /* example.cpp */; };
-		AC1535B91620766B00AACACB /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535B41620766B00AACACB /* example.cpp */; };
+		AC3F11AC163EA8A8004FA459 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AA163EA8A8004FA459 /* example.cpp */; };
+		AC3F11AD163EA8A8004FA459 /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AB163EA8A8004FA459 /* oNVExample.cpp */; };
+		AC3F11AE163EA8A8004FA459 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AA163EA8A8004FA459 /* example.cpp */; };
+		AC3F11AF163EA8A8004FA459 /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AB163EA8A8004FA459 /* oNVExample.cpp */; };
+		AC3F11B0163EA8A8004FA459 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AA163EA8A8004FA459 /* example.cpp */; };
+		AC3F11B1163EA8A8004FA459 /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AB163EA8A8004FA459 /* oNVExample.cpp */; };
+		AC3F11B2163EA8A8004FA459 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AA163EA8A8004FA459 /* example.cpp */; };
+		AC3F11B3163EA8A8004FA459 /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AB163EA8A8004FA459 /* oNVExample.cpp */; };
+		AC3F11B4163EA8A8004FA459 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AA163EA8A8004FA459 /* example.cpp */; };
+		AC3F11B5163EA8A8004FA459 /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AB163EA8A8004FA459 /* oNVExample.cpp */; };
 		AC59D7C31626F301001D6F23 /* oExample.rc in Resources */ = {isa = PBXBuildFile; fileRef = AC59D7991626EF89001D6F23 /* oExample.rc */; };
 		AC59D7C41626F301001D6F23 /* oExample.rc in Resources */ = {isa = PBXBuildFile; fileRef = AC59D7991626EF89001D6F23 /* oExample.rc */; };
 		AC59D7C51626F302001D6F23 /* oExample.rc in Resources */ = {isa = PBXBuildFile; fileRef = AC59D7991626EF89001D6F23 /* oExample.rc */; };
@@ -72,11 +77,6 @@
 		ACB85D4F16275A3C00C45C63 /* oXCompLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB85D4C16275A3C00C45C63 /* oXCompLib.cpp */; };
 		ACB85D5016275A3C00C45C63 /* oXCompLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB85D4C16275A3C00C45C63 /* oXCompLib.cpp */; };
 		ACB85D5116275A3C00C45C63 /* oXCompLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB85D4C16275A3C00C45C63 /* oXCompLib.cpp */; };
-		ACBCC23816299BAF006DEF4C /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACBCC23716299BAF006DEF4C /* oNVExample.cpp */; };
-		ACBCC23916299BAF006DEF4C /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACBCC23716299BAF006DEF4C /* oNVExample.cpp */; };
-		ACBCC23A16299BAF006DEF4C /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACBCC23716299BAF006DEF4C /* oNVExample.cpp */; };
-		ACBCC23B16299BAF006DEF4C /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACBCC23716299BAF006DEF4C /* oNVExample.cpp */; };
-		ACBCC23C16299BAF006DEF4C /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACBCC23716299BAF006DEF4C /* oNVExample.cpp */; };
 		ACFCA2DA161C7574004CD3BC /* oBaseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */; };
 		ACFCA2DB161C7574004CD3BC /* oBaseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */; };
 		ACFCA2DC161C7574004CD3BC /* oBaseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */; };
@@ -175,15 +175,15 @@
 		AC1535A716206B3700AACACB /* qString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = qString.cpp; path = ../omnis.xcomp.framework/qString.cpp; sourceTree = SOURCE_ROOT; };
 		AC1535A816206B3700AACACB /* qString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qString.h; path = ../omnis.xcomp.framework/qString.h; sourceTree = SOURCE_ROOT; };
 		AC1535AE16206B6100AACACB /* FrameworkWndProc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FrameworkWndProc.cpp; path = ../omnis.xcomp.framework/FrameworkWndProc.cpp; sourceTree = SOURCE_ROOT; };
-		AC1535B41620766B00AACACB /* example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = example.cpp; sourceTree = "<group>"; };
+		AC3F11A8163EA895004FA459 /* example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = example.h; path = Src/example.h; sourceTree = "<group>"; };
+		AC3F11A9163EA895004FA459 /* oNVExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oNVExample.h; path = Src/oNVExample.h; sourceTree = "<group>"; };
+		AC3F11AA163EA8A8004FA459 /* example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = example.cpp; path = Src/example.cpp; sourceTree = "<group>"; };
+		AC3F11AB163EA8A8004FA459 /* oNVExample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oNVExample.cpp; path = Src/oNVExample.cpp; sourceTree = "<group>"; };
 		AC59D79A1626EF89001D6F23 /* English */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; name = English; path = English.lproj/oExample.rc; sourceTree = "<group>"; };
 		ACB85D4B16275A3C00C45C63 /* oXCompLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oXCompLib.h; path = ../omnis.xcomp.framework/oXCompLib.h; sourceTree = SOURCE_ROOT; };
 		ACB85D4C16275A3C00C45C63 /* oXCompLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oXCompLib.cpp; path = ../omnis.xcomp.framework/oXCompLib.cpp; sourceTree = SOURCE_ROOT; };
 		ACB85D5216275B7D00C45C63 /* xCompStandardIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xCompStandardIncludes.h; path = ../omnis.xcomp.framework/xCompStandardIncludes.h; sourceTree = SOURCE_ROOT; };
-		ACB85D5316275D1900C45C63 /* example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = example.h; sourceTree = "<group>"; };
 		ACBAE45316205D65001A58DD /* qArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qArray.h; path = ../omnis.xcomp.framework/qArray.h; sourceTree = SOURCE_ROOT; };
-		ACBCC23616299BAF006DEF4C /* oNVExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oNVExample.h; sourceTree = "<group>"; };
-		ACBCC23716299BAF006DEF4C /* oNVExample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = oNVExample.cpp; sourceTree = "<group>"; };
 		ACFCA2C4161C7184004CD3BC /* omnis.xcomp.framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = omnis.xcomp.framework.h; path = ../omnis.xcomp.framework/omnis.xcomp.framework.h; sourceTree = SOURCE_ROOT; };
 		ACFCA2D8161C7574004CD3BC /* oBaseComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oBaseComponent.h; path = ../omnis.xcomp.framework/oBaseComponent.h; sourceTree = SOURCE_ROOT; };
 		ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oBaseComponent.cpp; path = ../omnis.xcomp.framework/oBaseComponent.cpp; sourceTree = SOURCE_ROOT; };
@@ -274,9 +274,9 @@
 		08FB77ADFE841716C02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				ACBCC23716299BAF006DEF4C /* oNVExample.cpp */,
+				AC3F11AA163EA8A8004FA459 /* example.cpp */,
+				AC3F11AB163EA8A8004FA459 /* oNVExample.cpp */,
 				AC15358A16206AE600AACACB /* oExample.cpp */,
-				AC1535B41620766B00AACACB /* example.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -296,9 +296,9 @@
 		96D631340905093100E0F291 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				ACBCC23616299BAF006DEF4C /* oNVExample.h */,
+				AC3F11A8163EA895004FA459 /* example.h */,
+				AC3F11A9163EA895004FA459 /* oNVExample.h */,
 				AC15359016206AF300AACACB /* oExample.h */,
-				ACB85D5316275D1900C45C63 /* example.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -510,9 +510,9 @@
 				AC15358C16206AE600AACACB /* oExample.cpp in Sources */,
 				AC1535AA16206B3700AACACB /* qString.cpp in Sources */,
 				AC1535B216206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
-				AC1535B81620766B00AACACB /* example.cpp in Sources */,
 				ACB85D4F16275A3C00C45C63 /* oXCompLib.cpp in Sources */,
-				ACBCC23916299BAF006DEF4C /* oNVExample.cpp in Sources */,
+				AC3F11AE163EA8A8004FA459 /* example.cpp in Sources */,
+				AC3F11AF163EA8A8004FA459 /* oNVExample.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,9 +524,9 @@
 				AC15358D16206AE600AACACB /* oExample.cpp in Sources */,
 				AC1535AB16206B3700AACACB /* qString.cpp in Sources */,
 				AC1535B016206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
-				AC1535B61620766B00AACACB /* example.cpp in Sources */,
 				ACB85D5116275A3C00C45C63 /* oXCompLib.cpp in Sources */,
-				ACBCC23A16299BAF006DEF4C /* oNVExample.cpp in Sources */,
+				AC3F11B0163EA8A8004FA459 /* example.cpp in Sources */,
+				AC3F11B1163EA8A8004FA459 /* oNVExample.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,9 +538,9 @@
 				AC15358E16206AE600AACACB /* oExample.cpp in Sources */,
 				AC1535AC16206B3700AACACB /* qString.cpp in Sources */,
 				AC1535B316206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
-				AC1535B91620766B00AACACB /* example.cpp in Sources */,
 				ACB85D5016275A3C00C45C63 /* oXCompLib.cpp in Sources */,
-				ACBCC23B16299BAF006DEF4C /* oNVExample.cpp in Sources */,
+				AC3F11B2163EA8A8004FA459 /* example.cpp in Sources */,
+				AC3F11B3163EA8A8004FA459 /* oNVExample.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,9 +552,9 @@
 				AC15358F16206AE600AACACB /* oExample.cpp in Sources */,
 				AC1535AD16206B3700AACACB /* qString.cpp in Sources */,
 				AC1535AF16206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
-				AC1535B51620766B00AACACB /* example.cpp in Sources */,
 				ACB85D4E16275A3C00C45C63 /* oXCompLib.cpp in Sources */,
-				ACBCC23C16299BAF006DEF4C /* oNVExample.cpp in Sources */,
+				AC3F11B4163EA8A8004FA459 /* example.cpp in Sources */,
+				AC3F11B5163EA8A8004FA459 /* oNVExample.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,9 +566,9 @@
 				AC15358B16206AE600AACACB /* oExample.cpp in Sources */,
 				AC1535A916206B3700AACACB /* qString.cpp in Sources */,
 				AC1535B116206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
-				AC1535B71620766B00AACACB /* example.cpp in Sources */,
 				ACB85D4D16275A3C00C45C63 /* oXCompLib.cpp in Sources */,
-				ACBCC23816299BAF006DEF4C /* oNVExample.cpp in Sources */,
+				AC3F11AC163EA8A8004FA459 /* example.cpp in Sources */,
+				AC3F11AD163EA8A8004FA459 /* oNVExample.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1061,6 +1061,7 @@
 					$PROJECT_DIR,
 					$PROJECT_DIR/English.lproj,
 				);
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 				WRAPPER_EXTENSION = n_xcomp;
 				ZERO_LINK = NO;
 			};
@@ -1104,6 +1105,7 @@
 					$PROJECT_DIR,
 					$PROJECT_DIR/English.lproj,
 				);
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = n_xcomp;
 				ZERO_LINK = NO;
