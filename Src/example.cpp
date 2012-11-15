@@ -10,6 +10,7 @@
 
 #include "example.h"
 
+/* see omnis.xcomp.framework\oXCompLib.h for methods to implement here */ 
 qint mainlib::ecm_connect(void) {
 	OXFcomponent	lvComponent;
 	
@@ -43,3 +44,14 @@ qint mainlib::ecm_connect(void) {
 	return oXCompLib::ecm_connect();
 };
 
+qbool	mainlib::ecm_disconnect(void) {
+	// nothing to do here..
+
+	return oXCompLib::ecm_disconnect();
+};
+
+int	mainlib::invokeMethod(qint pMethodId, EXTCompInfo* pECI) {
+	// nothing to do here..
+
+	return oXCompLib::invokeMethod(pMethodId, pECI);
+};

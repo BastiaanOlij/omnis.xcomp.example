@@ -15,11 +15,4 @@
 #include "oNVExample.h"
 #include "oExample.h"
 
-class mainlib : public oXCompLib {
-public:
-	virtual qint		ecm_connect(void);					// initialize our library
-
-};
-
-
 #endif

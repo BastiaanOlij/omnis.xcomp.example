@@ -42,7 +42,7 @@
 				MkTypLibCompatible="true"
 				SuppressStartupBanner="true"
 				TargetEnvironment="1"
-				TypeLibraryName=".\Debug/oPlan.tlb"
+				TypeLibraryName=".\Debug\example.tlb"
 				HeaderFileName=""
 			/>
 			<Tool
@@ -138,7 +138,7 @@
 				MkTypLibCompatible="true"
 				SuppressStartupBanner="true"
 				TargetEnvironment="1"
-				TypeLibraryName=".\Release/oPlan.tlb"
+				TypeLibraryName=".\Release\example.tlb"
 				HeaderFileName=""
 			/>
 			<Tool
@@ -269,27 +269,27 @@
 			Name="Header Files"
 			Filter="h;hpp;hxx;hm;inl;fi;fd"
 			>
+			<File
+				RelativePath=".\Src\example.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Src\oExample.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Src\oNVExample.h"
+				>
+			</File>
 			<Filter
 				Name="omnis.xcomp.framework"
 				>
-				<File
-					RelativePath=".\Src\example.h"
-					>
-				</File>
 				<File
 					RelativePath="..\omnis.xcomp.framework\oBaseComponent.h"
 					>
 				</File>
 				<File
-					RelativePath=".\Src\oExample.h"
-					>
-				</File>
-				<File
 					RelativePath="..\omnis.xcomp.framework\omnis.xcomp.framework.h"
-					>
-				</File>
-				<File
-					RelativePath=".\Src\oNVExample.h"
 					>
 				</File>
 				<File
