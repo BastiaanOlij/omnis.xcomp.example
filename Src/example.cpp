@@ -22,6 +22,8 @@ qint mainlib::ecm_connect(void) {
 	lvComponent.newObjectFunction	= (void * (*)()) &(oNVExample::newObject);
 	lvComponent.mProperties			= oNVExample::properties();
 	lvComponent.mMethods			= oNVExample::methods();
+	lvComponent.mEventMethodID		= 0;
+	lvComponent.mEvents				= oNVExample::events();
 	
 	addComponent(lvComponent);
 		
@@ -33,6 +35,8 @@ qint mainlib::ecm_connect(void) {
 	lvComponent.newObjectFunction	= (void * (*)()) &(oExample::newObject);
 	lvComponent.mProperties			= oExample::properties();
 	lvComponent.mMethods			= oExample::methods();
+	lvComponent.mEventMethodID		= 0;
+	lvComponent.mEvents				= oExample::events();
 		
 	addComponent(lvComponent);
 	

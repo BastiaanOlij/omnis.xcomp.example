@@ -423,7 +423,7 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 96CF455E08FBABD1003AA3FE /* Build configuration list for PBXProject "oExample" */;
+			buildConfigurationList = 96CF455E08FBABD1003AA3FE /* Build configuration list for PBXProject "oExample_OS4" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -1133,7 +1133,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		96CF455E08FBABD1003AA3FE /* Build configuration list for PBXProject "oExample" */ = {
+		96CF455E08FBABD1003AA3FE /* Build configuration list for PBXProject "oExample_OS4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96CF455F08FBABD1003AA3FE /* Development */,

@@ -85,3 +85,16 @@ int	oNVExample::invokeMethod(qint pMethodId, EXTCompInfo* pECI) {
 		}; break;
 	}
 };
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// events
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// return an array of events meta data
+qEvents *	oNVExample::events(void) {
+	qEvents *	lvEvents = oBaseNVComponent::events();
+	
+	// nothing to add yet, I'm not even sure these work for non-visual components
+	
+	return lvEvents;
+};

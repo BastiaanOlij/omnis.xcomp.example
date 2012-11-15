@@ -29,6 +29,8 @@ public:
 	static  qMethods *			methods(void);														// return array of method meta data
 	virtual int					invokeMethod(qint pMethodId, EXTCompInfo* pECI);					// invoke a method
 
+	// events
+	static	qEvents *			events(void);														// return an array of events meta data
 };
 
 #endif
