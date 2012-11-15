@@ -1,2 +1,7 @@
 oExample.xcodeproj/basolij.perspectivev3
 oExample.xcodeproj/basolij.pbxuser
+*.ncb
+/*.suo
+/*.sln
+/example_OS4.vcproj.BASTIAAN-VPC.Bastiaan.user
+Release
