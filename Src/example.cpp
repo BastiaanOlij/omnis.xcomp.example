@@ -10,6 +10,14 @@
 
 #include "example.h"
 
+qshort	mainlib::major() {
+	return 1;
+};
+
+qshort	mainlib::minor() {
+	return 1;
+};
+
 /* see omnis.xcomp.framework\oXCompLib.h for methods to implement here */ 
 qint mainlib::ecm_connect(void) {
 	OXFcomponent	lvComponent;
