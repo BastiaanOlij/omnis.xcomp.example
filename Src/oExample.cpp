@@ -80,7 +80,7 @@ qMethods * oExample::methods(void) {
 };
 
 // invoke a method
-int	oExample::invokeMethod(qint pMethodId, EXTCompInfo* pECI) {
+int	oExample::invokeMethod(qlong pMethodId, EXTCompInfo* pECI) {
 	switch (pMethodId) {
 		case 1: {
 			EXTfldval	lvResult;

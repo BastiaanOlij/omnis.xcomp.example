@@ -69,7 +69,7 @@ qMethods * oNVExample::methods(void) {
 };
 
 // invoke a method
-int	oNVExample::invokeMethod(qint pMethodId, EXTCompInfo* pECI) {
+int	oNVExample::invokeMethod(qlong pMethodId, EXTCompInfo* pECI) {
 	switch (pMethodId) {
 		case 1: {
 			EXTfldval	lvResult;
