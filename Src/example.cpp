@@ -58,7 +58,7 @@ qbool	mainlib::ecm_disconnect(void) {
 	return oXCompLib::ecm_disconnect();
 };
 
-int	mainlib::invokeMethod(qint pMethodId, EXTCompInfo* pECI) {
+int	mainlib::invokeMethod(qlong pMethodId, EXTCompInfo* pECI) {
 	// nothing to do here..
 
 	return oXCompLib::invokeMethod(pMethodId, pECI);
