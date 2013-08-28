@@ -82,7 +82,7 @@ int	oNVExample::invokeMethod(qlong pMethodId, EXTCompInfo* pECI) {
 	switch (pMethodId) {
 		case 1: {
 			EXTfldval	lvResult;
-			str255		lvString("Hello world from our non-visual object!");
+			str255		lvString(QTEXT("Hello world from our non-visual object!"));
 						
 			lvResult.setChar(lvString);
 			
@@ -90,7 +90,7 @@ int	oNVExample::invokeMethod(qlong pMethodId, EXTCompInfo* pECI) {
 			return 1L;							
 		}; break;
 		case 2: {
-			str255		lvMethodName("$evCallback"), lvTest("Testing");
+			str255		lvMethodName(QTEXT("$evCallback")), lvTest(QTEXT("Testing"));
 			EXTfldval	lvResult, lvParam;
 			
 			lvParam.setChar(lvTest);

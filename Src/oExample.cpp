@@ -84,7 +84,7 @@ int	oExample::invokeMethod(qlong pMethodId, EXTCompInfo* pECI) {
 	switch (pMethodId) {
 		case 1: {
 			EXTfldval	lvResult;
-			str255		lvString("Hello world from our visual object!");
+			str255		lvString(QTEXT("Hello world from our visual object!"));
 			
 			lvResult.setChar(lvString);
 			
