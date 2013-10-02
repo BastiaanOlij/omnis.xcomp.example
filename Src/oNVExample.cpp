@@ -53,10 +53,19 @@ qProperties * oNVExample::properties(void) {
 // methods
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// parameters for our callback function
+ECOparam callbackParams[] = {
+	//	Resource	Type			Flags				ExFlags
+	7000,			fftCharacter,	0,					0,		// test
+};
+
+
 // This is our array of methods we support
 ECOmethodEvent oNVExampleMethods[] = {
 	//	ID				Resource	Return type		Paramcount		Params					Flags		ExFlags
 	1,					8100,		fftCharacter,	0,				NULL,					0,			0,			// $testMethod	
+	2,					8101,		fftNone,		0,				NULL,					0,			0,			// $testCallback	
+	3,					8102,		fftNone,		1,				callbackParams,			0,			0,			// $evCallback	
 };
 
 // return an array of method meta data
@@ -73,11 +82,27 @@ int	oNVExample::invokeMethod(qlong pMethodId, EXTCompInfo* pECI) {
 	switch (pMethodId) {
 		case 1: {
 			EXTfldval	lvResult;
-			str255		lvString("Hello world from our non-visual object!");
-			
+			str255		lvString(QTEXT("Hello world from our non-visual object!"));
+						
 			lvResult.setChar(lvString);
 			
 			ECOaddParam(pECI, &lvResult);
+			return 1L;							
+		}; break;
+		case 2: {
+			str255		lvMethodName(QTEXT("$evCallback")), lvTest(QTEXT("Testing"));
+			EXTfldval	lvResult, lvParam;
+			
+			lvParam.setChar(lvTest);
+			
+			ECOdoMethod(mObjInst, &lvMethodName, &lvParam, 1, qtrue, &lvResult);
+			
+			ECOaddParam(pECI, &lvResult);
+			return 1L;							
+		}; break;
+		case 3: {
+			// this method is just a place holder...
+			
 			return 1L;							
 		}; break;
 		default: {
