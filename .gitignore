@@ -3,5 +3,7 @@ oExample.xcodeproj/basolij.pbxuser
 *.ncb
 /*.suo
 /*.sln
-/example_OS4.vcproj.BASTIAAN-VPC.Bastiaan.user
+/*.user
 Release
+UDeb
+URel
