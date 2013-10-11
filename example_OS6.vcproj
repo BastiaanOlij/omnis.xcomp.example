@@ -87,7 +87,7 @@
 				SubSystem="2"
 				RandomizedBaseAddress="1"
 				DataExecutionPrevention="0"
-				ImportLibrary=".\URel/GENERIC.lib"
+				ImportLibrary=".\URel/example.lib"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -187,7 +187,7 @@
 				SubSystem="2"
 				RandomizedBaseAddress="1"
 				DataExecutionPrevention="0"
-				ImportLibrary=".\UDeb/GENERIC.lib"
+				ImportLibrary=".\UDeb/example.lib"
 				TargetMachine="1"
 			/>
 			<Tool
