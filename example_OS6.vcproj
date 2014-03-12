@@ -238,11 +238,23 @@
 				Name="omnis.xcomp.framework"
 				>
 				<File
+					RelativePath="..\omnis.xcomp.framework\drawingfunctions.cpp"
+					>
+				</File>
+				<File
 					RelativePath="..\omnis.xcomp.framework\FrameworkWndProc.cpp"
 					>
 				</File>
 				<File
 					RelativePath="..\omnis.xcomp.framework\oBaseComponent.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\omnis.xcomp.framework\oBaseNVComponent.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\omnis.xcomp.framework\oBaseVisComponent.cpp"
 					>
 				</File>
 				<File
@@ -297,6 +309,14 @@
 				>
 				<File
 					RelativePath="..\omnis.xcomp.framework\oBaseComponent.h"
+					>
+				</File>
+				<File
+					RelativePath="..\omnis.xcomp.framework\oBaseNVComponent.h"
+					>
+				</File>
+				<File
+					RelativePath="..\omnis.xcomp.framework\oBaseVisComponent.h"
 					>
 				</File>
 				<File

@@ -49,10 +49,9 @@ void oExample::doPaint(HDC pHDC) {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Standard properties we should support...
-ECOproperty oExampleProperties[] = { 
+//ECOproperty oExampleProperties[] = { 
 	//	ID						ResID	Type			Flags					ExFlags	EnumStart	EnumEnd
-};	
-
+//};	
 
 // Implement our property meta data static method. Because static members aren't inherited in the normal sense
 // we're implementing our static function on each (sub)class and call the parents static member.
@@ -62,7 +61,7 @@ qProperties * oExample::properties(void) {
 	qProperties *	lvProperties = oBaseVisComponent::properties();
 	
 	// Add the property definition for our visual component here...
-	lvProperties->addElements(oExampleProperties, sizeof(oExampleProperties) / sizeof(ECOproperty));
+//	lvProperties->addElements(oExampleProperties, sizeof(oExampleProperties) / sizeof(ECOproperty));
 	
 	return lvProperties;
 };
