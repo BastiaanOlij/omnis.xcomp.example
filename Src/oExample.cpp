@@ -48,6 +48,12 @@ void oExample::doPaint(HDC pHDC) {
 // properties
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// Standard properties we should support...
+ECOproperty oExampleProperties[] = { 
+	//	ID						ResID	Type			Flags					ExFlags	EnumStart	EnumEnd
+};	
+
+
 // Implement our property meta data static method. Because static members aren't inherited in the normal sense
 // we're implementing our static function on each (sub)class and call the parents static member.
 // If you don't have properties you could call oBaseVisComponent::properties and skip implementing this but
@@ -55,10 +61,41 @@ void oExample::doPaint(HDC pHDC) {
 qProperties * oExample::properties(void) {
 	qProperties *	lvProperties = oBaseVisComponent::properties();
 	
-	// No properties to add just yet..
+	// Add the property definition for our visual component here...
+	lvProperties->addElements(oExampleProperties, sizeof(oExampleProperties) / sizeof(ECOproperty));
 	
 	return lvProperties;
 };
+
+// set the value of a property
+qbool oExample::setProperty(qlong pPropID,EXTfldval &pNewValue,EXTCompInfo* pECI) {
+	// most anum properties are managed by Omnis but some we need to do ourselves, no idea why...
+	
+	switch (pPropID) {
+//		case YourPropertyID: {
+//			mYourValue = pNewValue.getLong();
+//			return qtrue;
+//		}; break;
+		default:
+			return oBaseVisComponent::setProperty(pPropID, pNewValue, pECI);
+			break;
+	};
+};
+
+// get the value of a property
+void oExample::getProperty(qlong pPropID,EXTfldval &pGetValue,EXTCompInfo* pECI) {
+	// most anum properties are managed by Omnis but some we need to do ourselves...
+	
+	switch (pPropID) {
+//		case YourPropertyID: {
+//			pNewValue.setLong(1234);
+//		}; break;
+		default:
+			oBaseVisComponent::getProperty(pPropID, pGetValue, pECI);
+			
+			break;
+	};
+};	
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // methods
