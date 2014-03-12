@@ -138,11 +138,23 @@ int	oExample::invokeMethod(qlong pMethodId, EXTCompInfo* pECI) {
 // events
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+ECOmethodEvent oExampleEvents[] = {
+	//	ID					Resource	Return type		Paramcount		Params					Flags		ExFlags
+	1,						5000,		0,				0,				0,						0,			0,
+};	
+
 // return an array of events meta data
 qEvents *	oExample::events(void) {
 	qEvents *	lvEvents = oBaseNVComponent::events();
 	
-	// nothing to add yet
+	// Add the event definition for our visual component here...
+	lvEvents->addElements(oExampleEvents, sizeof(oExampleEvents) / sizeof(ECOmethodEvent));
 	
 	return lvEvents;
 };
+
+void	oExample::evClick(qpoint pAt) {
+	// need to find out if Omnis has an internal ID for its standard evClick
+	ECOsendEvent(mHWnd, 1, 0, 0, EEN_EXEC_IMMEDIATE);	
+};	
+

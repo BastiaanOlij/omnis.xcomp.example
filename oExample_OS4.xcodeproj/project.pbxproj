@@ -14,7 +14,6 @@
 			);
 			dependencies = (
 				96D355F80908DDEB006B6436 /* PBXTargetDependency */,
-				9658838409BC64BB0063770F /* PBXTargetDependency */,
 			);
 			name = ReleaseBuild;
 			productName = ReleaseBuild;
@@ -22,113 +21,25 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		96CA49510907D19700C234AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		96CA49560907D19700C234AA /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
 		96CA4E210907E82600C234AA /* n_complib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CA4E200907E82600C234AA /* n_complib.framework */; };
-		96CA4E220907E82600C234AA /* n_complib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CA4E200907E82600C234AA /* n_complib.framework */; };
-		96CA4E550907E8CC00C234AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		96CA4E5A0907E8CC00C234AA /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
-		96CA4E660907EB0700C234AA /* u_complib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CA4E650907EB0700C234AA /* u_complib.framework */; };
-		96D3558A0908D902006B6436 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		96D3558F0908D902006B6436 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
-		96D355F10908DA89006B6436 /* u_complib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CA4E650907EB0700C234AA /* u_complib.framework */; };
-		96D356140908DEF5006B6436 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		96D356190908DEF5006B6436 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
-		96D3561A0908DEF5006B6436 /* u_complib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CA4E650907EB0700C234AA /* u_complib.framework */; };
 		96D631100905059400E0F291 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		96D631130905059400E0F291 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
 		AC15358B16206AE600AACACB /* oExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC15358A16206AE600AACACB /* oExample.cpp */; };
-		AC15358C16206AE600AACACB /* oExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC15358A16206AE600AACACB /* oExample.cpp */; };
-		AC15358D16206AE600AACACB /* oExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC15358A16206AE600AACACB /* oExample.cpp */; };
-		AC15358E16206AE600AACACB /* oExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC15358A16206AE600AACACB /* oExample.cpp */; };
-		AC15358F16206AE600AACACB /* oExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC15358A16206AE600AACACB /* oExample.cpp */; };
 		AC1535A016206B1D00AACACB /* oExample.bmp in Resources */ = {isa = PBXBuildFile; fileRef = AC15359E16206B1D00AACACB /* oExample.bmp */; };
-		AC1535A116206B1D00AACACB /* oExample.bmp in Resources */ = {isa = PBXBuildFile; fileRef = AC15359E16206B1D00AACACB /* oExample.bmp */; };
-		AC1535A216206B1D00AACACB /* oExample.bmp in Resources */ = {isa = PBXBuildFile; fileRef = AC15359E16206B1D00AACACB /* oExample.bmp */; };
-		AC1535A316206B1D00AACACB /* oExample.bmp in Resources */ = {isa = PBXBuildFile; fileRef = AC15359E16206B1D00AACACB /* oExample.bmp */; };
-		AC1535A416206B1D00AACACB /* oExample.bmp in Resources */ = {isa = PBXBuildFile; fileRef = AC15359E16206B1D00AACACB /* oExample.bmp */; };
 		AC1535A916206B3700AACACB /* qString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535A716206B3700AACACB /* qString.cpp */; };
-		AC1535AA16206B3700AACACB /* qString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535A716206B3700AACACB /* qString.cpp */; };
-		AC1535AB16206B3700AACACB /* qString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535A716206B3700AACACB /* qString.cpp */; };
-		AC1535AC16206B3700AACACB /* qString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535A716206B3700AACACB /* qString.cpp */; };
-		AC1535AD16206B3700AACACB /* qString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535A716206B3700AACACB /* qString.cpp */; };
-		AC1535AF16206B6100AACACB /* FrameworkWndProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535AE16206B6100AACACB /* FrameworkWndProc.cpp */; };
-		AC1535B016206B6100AACACB /* FrameworkWndProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535AE16206B6100AACACB /* FrameworkWndProc.cpp */; };
 		AC1535B116206B6100AACACB /* FrameworkWndProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535AE16206B6100AACACB /* FrameworkWndProc.cpp */; };
-		AC1535B216206B6100AACACB /* FrameworkWndProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535AE16206B6100AACACB /* FrameworkWndProc.cpp */; };
-		AC1535B316206B6100AACACB /* FrameworkWndProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1535AE16206B6100AACACB /* FrameworkWndProc.cpp */; };
+		AC1FE3AF18D074BA007C0416 /* drawingfunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1FE3AC18D074BA007C0416 /* drawingfunctions.cpp */; };
+		AC1FE3B018D074BA007C0416 /* oUTF8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1FE3AD18D074BA007C0416 /* oUTF8.cpp */; };
+		AC1FE3DB18D076E8007C0416 /* oBaseNVComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1FE3D718D076E8007C0416 /* oBaseNVComponent.cpp */; };
+		AC1FE3DC18D076E8007C0416 /* oBaseVisComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1FE3D918D076E8007C0416 /* oBaseVisComponent.cpp */; };
 		AC3F11AC163EA8A8004FA459 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AA163EA8A8004FA459 /* example.cpp */; };
 		AC3F11AD163EA8A8004FA459 /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AB163EA8A8004FA459 /* oNVExample.cpp */; };
-		AC3F11AE163EA8A8004FA459 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AA163EA8A8004FA459 /* example.cpp */; };
-		AC3F11AF163EA8A8004FA459 /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AB163EA8A8004FA459 /* oNVExample.cpp */; };
-		AC3F11B0163EA8A8004FA459 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AA163EA8A8004FA459 /* example.cpp */; };
-		AC3F11B1163EA8A8004FA459 /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AB163EA8A8004FA459 /* oNVExample.cpp */; };
-		AC3F11B2163EA8A8004FA459 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AA163EA8A8004FA459 /* example.cpp */; };
-		AC3F11B3163EA8A8004FA459 /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AB163EA8A8004FA459 /* oNVExample.cpp */; };
-		AC3F11B4163EA8A8004FA459 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AA163EA8A8004FA459 /* example.cpp */; };
-		AC3F11B5163EA8A8004FA459 /* oNVExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3F11AB163EA8A8004FA459 /* oNVExample.cpp */; };
 		AC59D7C31626F301001D6F23 /* oExample.rc in Resources */ = {isa = PBXBuildFile; fileRef = AC59D7991626EF89001D6F23 /* oExample.rc */; };
-		AC59D7C41626F301001D6F23 /* oExample.rc in Resources */ = {isa = PBXBuildFile; fileRef = AC59D7991626EF89001D6F23 /* oExample.rc */; };
-		AC59D7C51626F302001D6F23 /* oExample.rc in Resources */ = {isa = PBXBuildFile; fileRef = AC59D7991626EF89001D6F23 /* oExample.rc */; };
-		AC59D7C61626F303001D6F23 /* oExample.rc in Resources */ = {isa = PBXBuildFile; fileRef = AC59D7991626EF89001D6F23 /* oExample.rc */; };
-		AC59D7C71626F303001D6F23 /* oExample.rc in Resources */ = {isa = PBXBuildFile; fileRef = AC59D7991626EF89001D6F23 /* oExample.rc */; };
 		ACB85D4D16275A3C00C45C63 /* oXCompLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB85D4C16275A3C00C45C63 /* oXCompLib.cpp */; };
-		ACB85D4E16275A3C00C45C63 /* oXCompLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB85D4C16275A3C00C45C63 /* oXCompLib.cpp */; };
-		ACB85D4F16275A3C00C45C63 /* oXCompLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB85D4C16275A3C00C45C63 /* oXCompLib.cpp */; };
-		ACB85D5016275A3C00C45C63 /* oXCompLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB85D4C16275A3C00C45C63 /* oXCompLib.cpp */; };
-		ACB85D5116275A3C00C45C63 /* oXCompLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB85D4C16275A3C00C45C63 /* oXCompLib.cpp */; };
-		ACFCA2DA161C7574004CD3BC /* oBaseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */; };
-		ACFCA2DB161C7574004CD3BC /* oBaseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */; };
-		ACFCA2DC161C7574004CD3BC /* oBaseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */; };
 		ACFCA2DD161C7574004CD3BC /* oBaseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */; };
-		ACFCA2DE161C7574004CD3BC /* oBaseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACFCA2D9161C7574004CD3BC /* oBaseComponent.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
-		96CA49580907D19700C234AA /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.proxy.script;
-			filePatterns = "*.rc";
-			fileType = pattern.proxy;
-			isEditable = 1;
-			outputFiles = (
-				"$(TEMP_FILE_DIR)/omnisrc/Localizable.strings",
-			);
-			script = "/Developer/Tools/omnisrc.app/Contents/MacOS/omnisrc INPUT_FILE_PATH TEMP_FILE_DIR REZ_SEARCH_PATHS XCOMP\ncp $TEMP_FILE_DIR/omnisrc/xcomp.rsrc $INSTALL_DIR/$CONTENTS_FOLDER_PATH/Resources";
-		};
-		96CA4E5C0907E8CC00C234AA /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.proxy.script;
-			filePatterns = "*.rc";
-			fileType = pattern.proxy;
-			isEditable = 1;
-			outputFiles = (
-				"$(TEMP_FILE_DIR)/omnisrc/Localizable.strings",
-			);
-			script = "/Developer/Tools/omnisrc.app/Contents/MacOS/omnisrc INPUT_FILE_PATH TEMP_FILE_DIR REZ_SEARCH_PATHS XCOMP\ncp $TEMP_FILE_DIR/omnisrc/xcomp.rsrc $INSTALL_DIR/$CONTENTS_FOLDER_PATH/Resources";
-		};
-		96D355910908D902006B6436 /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.proxy.script;
-			filePatterns = "*.rc";
-			fileType = pattern.proxy;
-			isEditable = 1;
-			outputFiles = (
-				"$(TEMP_FILE_DIR)/omnisrc/Localizable.strings",
-			);
-			script = "/Developer/Tools/omnisrc.app/Contents/MacOS/omnisrc INPUT_FILE_PATH TEMP_FILE_DIR REZ_SEARCH_PATHS XCOMP\ncp $TEMP_FILE_DIR/omnisrc/xcomp.rsrc $INSTALL_DIR/$CONTENTS_FOLDER_PATH/Resources";
-		};
-		96D3561B0908DEF5006B6436 /* PBXBuildRule */ = {
-			isa = PBXBuildRule;
-			compilerSpec = com.apple.compilers.proxy.script;
-			filePatterns = "*.rc";
-			fileType = pattern.proxy;
-			isEditable = 1;
-			outputFiles = (
-				"$(TEMP_FILE_DIR)/omnisrc/Localizable.strings",
-			);
-			script = "/Developer/Tools/omnisrc.app/Contents/MacOS/omnisrc INPUT_FILE_PATH TEMP_FILE_DIR REZ_SEARCH_PATHS XCOMP\ncp $TEMP_FILE_DIR/omnisrc/xcomp.rsrc $INSTALL_DIR/$CONTENTS_FOLDER_PATH/Resources";
-		};
 		96D6314209050A2E00E0F291 /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
 			compilerSpec = com.apple.compilers.proxy.script;
@@ -143,13 +54,6 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
-		9658838309BC64BB0063770F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 96CA4E530907E8CC00C234AA;
-			remoteInfo = UnicodeCore;
-		};
 		96D355F70908DDEB006B6436 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
@@ -162,12 +66,8 @@
 /* Begin PBXFileReference section */
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
-		96CA495D0907D19700C234AA /* generic.n_webdesign */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = generic.n_webdesign; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CA4E200907E82600C234AA /* n_complib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = n_complib.framework; path = ../complib/n_complib.framework; sourceTree = SOURCE_ROOT; };
-		96CA4E610907E8CC00C234AA /* generic.u_xcomp */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = generic.u_xcomp; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CA4E650907EB0700C234AA /* u_complib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = u_complib.framework; path = ../complib/u_complib.framework; sourceTree = SOURCE_ROOT; };
-		96D355960908D902006B6436 /* generic.u_webdesign */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = generic.u_webdesign; sourceTree = BUILT_PRODUCTS_DIR; };
-		96D356200908DEF5006B6436 /* generic.webclient */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = generic.webclient; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D631190905059400E0F291 /* oExample.n_xcomp */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oExample.n_xcomp; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC15358A16206AE600AACACB /* oExample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oExample.cpp; path = Src/oExample.cpp; sourceTree = "<group>"; };
 		AC15359016206AF300AACACB /* oExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oExample.h; path = Src/oExample.h; sourceTree = "<group>"; };
@@ -175,6 +75,13 @@
 		AC1535A716206B3700AACACB /* qString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = qString.cpp; path = ../omnis.xcomp.framework/qString.cpp; sourceTree = SOURCE_ROOT; };
 		AC1535A816206B3700AACACB /* qString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qString.h; path = ../omnis.xcomp.framework/qString.h; sourceTree = SOURCE_ROOT; };
 		AC1535AE16206B6100AACACB /* FrameworkWndProc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FrameworkWndProc.cpp; path = ../omnis.xcomp.framework/FrameworkWndProc.cpp; sourceTree = SOURCE_ROOT; };
+		AC1FE3AC18D074BA007C0416 /* drawingfunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawingfunctions.cpp; path = ../omnis.xcomp.framework/drawingfunctions.cpp; sourceTree = SOURCE_ROOT; };
+		AC1FE3AD18D074BA007C0416 /* oUTF8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oUTF8.cpp; path = ../omnis.xcomp.framework/oUTF8.cpp; sourceTree = SOURCE_ROOT; };
+		AC1FE3AE18D074BA007C0416 /* oUTF8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oUTF8.h; path = ../omnis.xcomp.framework/oUTF8.h; sourceTree = SOURCE_ROOT; };
+		AC1FE3D718D076E8007C0416 /* oBaseNVComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oBaseNVComponent.cpp; path = ../omnis.xcomp.framework/oBaseNVComponent.cpp; sourceTree = SOURCE_ROOT; };
+		AC1FE3D818D076E8007C0416 /* oBaseNVComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oBaseNVComponent.h; path = ../omnis.xcomp.framework/oBaseNVComponent.h; sourceTree = SOURCE_ROOT; };
+		AC1FE3D918D076E8007C0416 /* oBaseVisComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oBaseVisComponent.cpp; path = ../omnis.xcomp.framework/oBaseVisComponent.cpp; sourceTree = SOURCE_ROOT; };
+		AC1FE3DA18D076E8007C0416 /* oBaseVisComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oBaseVisComponent.h; path = ../omnis.xcomp.framework/oBaseVisComponent.h; sourceTree = SOURCE_ROOT; };
 		AC3F11A8163EA895004FA459 /* example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = example.h; path = Src/example.h; sourceTree = "<group>"; };
 		AC3F11A9163EA895004FA459 /* oNVExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oNVExample.h; path = Src/oNVExample.h; sourceTree = "<group>"; };
 		AC3F11AA163EA8A8004FA459 /* example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = example.cpp; path = Src/example.cpp; sourceTree = "<group>"; };
@@ -190,42 +97,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		96CA49550907D19700C234AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96CA49560907D19700C234AA /* Carbon.framework in Frameworks */,
-				96CA4E220907E82600C234AA /* n_complib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96CA4E590907E8CC00C234AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96CA4E5A0907E8CC00C234AA /* Carbon.framework in Frameworks */,
-				96CA4E660907EB0700C234AA /* u_complib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96D3558E0908D902006B6436 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96D3558F0908D902006B6436 /* Carbon.framework in Frameworks */,
-				96D355F10908DA89006B6436 /* u_complib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96D356180908DEF5006B6436 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96D356190908DEF5006B6436 /* Carbon.framework in Frameworks */,
-				96D3561A0908DEF5006B6436 /* u_complib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		96D631120905059400E0F291 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,10 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				96D631190905059400E0F291 /* oExample.n_xcomp */,
-				96CA495D0907D19700C234AA /* generic.n_webdesign */,
-				96CA4E610907E8CC00C234AA /* generic.u_xcomp */,
-				96D355960908D902006B6436 /* generic.u_webdesign */,
-				96D356200908DEF5006B6436 /* generic.webclient */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -306,6 +173,13 @@
 		AC15359D16206AFD00AACACB /* omnis.xcomp.framework */ = {
 			isa = PBXGroup;
 			children = (
+				AC1FE3D718D076E8007C0416 /* oBaseNVComponent.cpp */,
+				AC1FE3D818D076E8007C0416 /* oBaseNVComponent.h */,
+				AC1FE3D918D076E8007C0416 /* oBaseVisComponent.cpp */,
+				AC1FE3DA18D076E8007C0416 /* oBaseVisComponent.h */,
+				AC1FE3AC18D074BA007C0416 /* drawingfunctions.cpp */,
+				AC1FE3AD18D074BA007C0416 /* oUTF8.cpp */,
+				AC1FE3AE18D074BA007C0416 /* oUTF8.h */,
 				AC1535A716206B3700AACACB /* qString.cpp */,
 				AC1535A816206B3700AACACB /* qString.h */,
 				ACFCA2C4161C7184004CD3BC /* omnis.xcomp.framework.h */,
@@ -323,82 +197,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96CA494F0907D19700C234AA /* WebDesign */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96CA49590907D19700C234AA /* Build configuration list for PBXNativeTarget "WebDesign" */;
-			buildPhases = (
-				96CA49500907D19700C234AA /* Resources */,
-				96CA49530907D19700C234AA /* Sources */,
-				96CA49550907D19700C234AA /* Frameworks */,
-			);
-			buildRules = (
-				96CA49580907D19700C234AA /* PBXBuildRule */,
-			);
-			dependencies = (
-			);
-			name = WebDesign;
-			productInstallPath = "$(HOME)/Library/Bundles";
-			productName = xrandom;
-			productReference = 96CA495D0907D19700C234AA /* generic.n_webdesign */;
-			productType = "com.apple.product-type.bundle";
-		};
-		96CA4E530907E8CC00C234AA /* UnicodeCore */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96CA4E5D0907E8CC00C234AA /* Build configuration list for PBXNativeTarget "UnicodeCore" */;
-			buildPhases = (
-				96CA4E540907E8CC00C234AA /* Resources */,
-				96CA4E570907E8CC00C234AA /* Sources */,
-				96CA4E590907E8CC00C234AA /* Frameworks */,
-			);
-			buildRules = (
-				96CA4E5C0907E8CC00C234AA /* PBXBuildRule */,
-			);
-			dependencies = (
-			);
-			name = UnicodeCore;
-			productInstallPath = "$(HOME)/Library/Bundles";
-			productName = xrandom;
-			productReference = 96CA4E610907E8CC00C234AA /* generic.u_xcomp */;
-			productType = "com.apple.product-type.bundle";
-		};
-		96D355880908D902006B6436 /* UnicodeWebDesign */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96D355920908D902006B6436 /* Build configuration list for PBXNativeTarget "UnicodeWebDesign" */;
-			buildPhases = (
-				96D355890908D902006B6436 /* Resources */,
-				96D3558C0908D902006B6436 /* Sources */,
-				96D3558E0908D902006B6436 /* Frameworks */,
-			);
-			buildRules = (
-				96D355910908D902006B6436 /* PBXBuildRule */,
-			);
-			dependencies = (
-			);
-			name = UnicodeWebDesign;
-			productInstallPath = "$(HOME)/Library/Bundles";
-			productName = xrandom;
-			productReference = 96D355960908D902006B6436 /* generic.u_webdesign */;
-			productType = "com.apple.product-type.bundle";
-		};
-		96D356120908DEF5006B6436 /* Webclient */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96D3561C0908DEF5006B6436 /* Build configuration list for PBXNativeTarget "Webclient" */;
-			buildPhases = (
-				96D356130908DEF5006B6436 /* Resources */,
-				96D356160908DEF5006B6436 /* Sources */,
-				96D356180908DEF5006B6436 /* Frameworks */,
-			);
-			buildRules = (
-				96D3561B0908DEF5006B6436 /* PBXBuildRule */,
-			);
-			dependencies = (
-			);
-			name = Webclient;
-			productInstallPath = "$(HOME)/Library/Bundles";
-			productName = xrandom;
-			productReference = 96D356200908DEF5006B6436 /* generic.webclient */;
-			productType = "com.apple.product-type.bundle";
-		};
 		96D6310E0905059400E0F291 /* core */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D631150905059400E0F291 /* Build configuration list for PBXNativeTarget "core" */;
@@ -439,56 +237,12 @@
 			projectRoot = "";
 			targets = (
 				96D6310E0905059400E0F291 /* core */,
-				96CA494F0907D19700C234AA /* WebDesign */,
-				96CA4E530907E8CC00C234AA /* UnicodeCore */,
-				96D355880908D902006B6436 /* UnicodeWebDesign */,
-				96D356120908DEF5006B6436 /* Webclient */,
 				96D355F20908DD62006B6436 /* ReleaseBuild */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		96CA49500907D19700C234AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96CA49510907D19700C234AA /* InfoPlist.strings in Resources */,
-				AC1535A116206B1D00AACACB /* oExample.bmp in Resources */,
-				AC59D7C41626F301001D6F23 /* oExample.rc in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96CA4E540907E8CC00C234AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96CA4E550907E8CC00C234AA /* InfoPlist.strings in Resources */,
-				AC1535A216206B1D00AACACB /* oExample.bmp in Resources */,
-				AC59D7C51626F302001D6F23 /* oExample.rc in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96D355890908D902006B6436 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96D3558A0908D902006B6436 /* InfoPlist.strings in Resources */,
-				AC1535A316206B1D00AACACB /* oExample.bmp in Resources */,
-				AC59D7C61626F303001D6F23 /* oExample.rc in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96D356130908DEF5006B6436 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96D356140908DEF5006B6436 /* InfoPlist.strings in Resources */,
-				AC1535A416206B1D00AACACB /* oExample.bmp in Resources */,
-				AC59D7C71626F303001D6F23 /* oExample.rc in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		96D6310F0905059400E0F291 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -502,62 +256,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		96CA49530907D19700C234AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACFCA2DB161C7574004CD3BC /* oBaseComponent.cpp in Sources */,
-				AC15358C16206AE600AACACB /* oExample.cpp in Sources */,
-				AC1535AA16206B3700AACACB /* qString.cpp in Sources */,
-				AC1535B216206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
-				ACB85D4F16275A3C00C45C63 /* oXCompLib.cpp in Sources */,
-				AC3F11AE163EA8A8004FA459 /* example.cpp in Sources */,
-				AC3F11AF163EA8A8004FA459 /* oNVExample.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96CA4E570907E8CC00C234AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACFCA2DE161C7574004CD3BC /* oBaseComponent.cpp in Sources */,
-				AC15358D16206AE600AACACB /* oExample.cpp in Sources */,
-				AC1535AB16206B3700AACACB /* qString.cpp in Sources */,
-				AC1535B016206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
-				ACB85D5116275A3C00C45C63 /* oXCompLib.cpp in Sources */,
-				AC3F11B0163EA8A8004FA459 /* example.cpp in Sources */,
-				AC3F11B1163EA8A8004FA459 /* oNVExample.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96D3558C0908D902006B6436 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACFCA2DA161C7574004CD3BC /* oBaseComponent.cpp in Sources */,
-				AC15358E16206AE600AACACB /* oExample.cpp in Sources */,
-				AC1535AC16206B3700AACACB /* qString.cpp in Sources */,
-				AC1535B316206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
-				ACB85D5016275A3C00C45C63 /* oXCompLib.cpp in Sources */,
-				AC3F11B2163EA8A8004FA459 /* example.cpp in Sources */,
-				AC3F11B3163EA8A8004FA459 /* oNVExample.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96D356160908DEF5006B6436 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACFCA2DC161C7574004CD3BC /* oBaseComponent.cpp in Sources */,
-				AC15358F16206AE600AACACB /* oExample.cpp in Sources */,
-				AC1535AD16206B3700AACACB /* qString.cpp in Sources */,
-				AC1535AF16206B6100AACACB /* FrameworkWndProc.cpp in Sources */,
-				ACB85D4E16275A3C00C45C63 /* oXCompLib.cpp in Sources */,
-				AC3F11B4163EA8A8004FA459 /* example.cpp in Sources */,
-				AC3F11B5163EA8A8004FA459 /* oNVExample.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		96D631110905059400E0F291 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -569,17 +267,16 @@
 				ACB85D4D16275A3C00C45C63 /* oXCompLib.cpp in Sources */,
 				AC3F11AC163EA8A8004FA459 /* example.cpp in Sources */,
 				AC3F11AD163EA8A8004FA459 /* oNVExample.cpp in Sources */,
+				AC1FE3AF18D074BA007C0416 /* drawingfunctions.cpp in Sources */,
+				AC1FE3B018D074BA007C0416 /* oUTF8.cpp in Sources */,
+				AC1FE3DB18D076E8007C0416 /* oBaseNVComponent.cpp in Sources */,
+				AC1FE3DC18D076E8007C0416 /* oBaseVisComponent.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9658838409BC64BB0063770F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 96CA4E530907E8CC00C234AA /* UnicodeCore */;
-			targetProxy = 9658838309BC64BB0063770F /* PBXContainerItemProxy */;
-		};
 		96D355F80908DDEB006B6436 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 96D6310E0905059400E0F291 /* core */;
@@ -615,182 +312,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		96CA495A0907D19700C234AA /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_VARIANTS = normal;
-				COPY_PHASE_STRIP = NO;
-				DEPLOYMENT_LOCATION = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../complib";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = $PROJECT_DIR/../complib/n_complib.framework/Headers/coreosx.h;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR/../complib/n_complib.framework/Headers,
-				);
-				INFOPLIST_FILE = "$(PROJECT_DIR)/Info.plist";
-				INIT_ROUTINE = "";
-				INSTALL_PATH = "$(PROJECT_DIR)/../_OSXWebDesignDbg";
-				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(OTHER_CFLAGS)",
-					"-fpermissive",
-					"-fno-for-scope",
-					"-Dismach_o",
-					"-Dismach-o",
-				);
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = generic;
-				RESMERGER_SOURCES_FORK = data;
-				REZ_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR,
-					$PROJECT_DIR/English.lproj,
-				);
-				WRAPPER_EXTENSION = n_webdesign;
-				ZERO_LINK = NO;
-			};
-			name = Development;
-		};
-		96CA495B0907D19700C234AA /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				COPY_PHASE_STRIP = YES;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = /;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../complib";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = $PROJECT_DIR/../complib/n_complib.framework/Headers/coreosx.h;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR/../complib/n_complib.framework/Headers,
-				);
-				INFOPLIST_FILE = "$(PROJECT_DIR)/Info.plist";
-				INSTALL_PATH = "$(PROJECT_DIR)/../_OSXWebDesign";
-				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(OTHER_CFLAGS)",
-					"-fpermissive",
-					"-fno-for-scope",
-					"-Dismach_o",
-					"-Dismach-o",
-				);
-				PRODUCT_NAME = generic;
-				RESMERGER_SOURCES_FORK = data;
-				REZ_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR,
-					$PROJECT_DIR/English.lproj,
-				);
-				SKIP_INSTALL = NO;
-				WRAPPER_EXTENSION = n_webdesign;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		96CA4E5E0907E8CC00C234AA /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_VARIANTS = normal;
-				COPY_PHASE_STRIP = NO;
-				DEPLOYMENT_LOCATION = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../complib";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = $PROJECT_DIR/../complib/u_complib.framework/Headers/carbnuni.h;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR/../complib/u_complib.framework/Headers,
-				);
-				INFOPLIST_FILE = $PROJECT_DIR/Info.plist;
-				INIT_ROUTINE = "";
-				INSTALL_PATH = "$(PROJECT_DIR)/../_OSXUnicodeDbg";
-				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CFLAGS = (
-					"-fpermissive",
-					"-fno-for-scope",
-					"-fshort-wchar",
-					"-Dismach_o",
-					"-Dismach-o",
-				);
-				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = generic;
-				RESMERGER_SOURCES_FORK = data;
-				REZ_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR,
-					$PROJECT_DIR/English.lproj,
-				);
-				WRAPPER_EXTENSION = u_xcomp;
-				ZERO_LINK = NO;
-			};
-			name = Development;
-		};
-		96CA4E5F0907E8CC00C234AA /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				COPY_PHASE_STRIP = YES;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = /;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../complib";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = $PROJECT_DIR/../complib/u_complib.framework/Headers/carbnuni.h;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR/../complib/u_complib.framework/Headers,
-				);
-				INFOPLIST_FILE = $PROJECT_DIR/Info.plist;
-				INSTALL_PATH = "$(PROJECT_DIR)/../_OSXUnicode";
-				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CFLAGS = (
-					"-fpermissive",
-					"-fno-for-scope",
-					"-fshort-wchar",
-					"-Dismach_o",
-					"-Dismach-o",
-				);
-				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
-				PRODUCT_NAME = generic;
-				RESMERGER_SOURCES_FORK = data;
-				REZ_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR,
-					$PROJECT_DIR/English.lproj,
-				);
-				SKIP_INSTALL = NO;
-				WRAPPER_EXTENSION = u_xcomp;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
 		96CF455F08FBABD1003AA3FE /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -807,93 +328,6 @@
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
-			};
-			name = Deployment;
-		};
-		96D355930908D902006B6436 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_VARIANTS = normal;
-				COPY_PHASE_STRIP = NO;
-				DEPLOYMENT_LOCATION = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../complib";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = $PROJECT_DIR/../complib/u_complib.framework/Headers/coreuni.h;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR/../complib/u_complib.framework/Headers,
-				);
-				INFOPLIST_FILE = $PROJECT_DIR/Info.plist;
-				INIT_ROUTINE = "";
-				INSTALL_PATH = "$(PROJECT_DIR)/../_OSXUnicodeWebDesignDbg";
-				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(OTHER_CFLAGS)",
-					"-fpermissive",
-					"-fno-for-scope",
-					"-Dismach_o",
-					"-Dismach-o",
-				);
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = generic;
-				RESMERGER_SOURCES_FORK = data;
-				REZ_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR,
-					$PROJECT_DIR/English.lproj,
-				);
-				WRAPPER_EXTENSION = u_webdesign;
-				ZERO_LINK = NO;
-			};
-			name = Development;
-		};
-		96D355940908D902006B6436 /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				COPY_PHASE_STRIP = YES;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = /;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../complib";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = $PROJECT_DIR/../complib/u_complib.framework/Headers/coreuni.h;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR/../complib/u_complib.framework/Headers,
-				);
-				INFOPLIST_FILE = $PROJECT_DIR/Info.plist;
-				INSTALL_PATH = "$(PROJECT_DIR)/../_OSXUnicodeWebDesign";
-				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(OTHER_CFLAGS)",
-					"-fpermissive",
-					"-fno-for-scope",
-					"-Dismach_o",
-					"-Dismach-o",
-				);
-				PRODUCT_NAME = generic;
-				RESMERGER_SOURCES_FORK = data;
-				REZ_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR,
-					$PROJECT_DIR/English.lproj,
-				);
-				SKIP_INSTALL = NO;
-				WRAPPER_EXTENSION = u_webdesign;
-				ZERO_LINK = NO;
 			};
 			name = Deployment;
 		};
@@ -932,93 +366,6 @@
 					"-Wno-four-char-constants",
 					"-Wno-unknown-pragmas",
 				);
-			};
-			name = Deployment;
-		};
-		96D3561D0908DEF5006B6436 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_VARIANTS = normal;
-				COPY_PHASE_STRIP = NO;
-				DEPLOYMENT_LOCATION = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../complib";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = $PROJECT_DIR/../complib/u_complib.framework/Headers/coreuni.h;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR/../complib/u_complib.framework/Headers,
-				);
-				INFOPLIST_FILE = $PROJECT_DIR/Info.plist;
-				INIT_ROUTINE = "";
-				INSTALL_PATH = "$(PROJECT_DIR)/../_OSXUnicodeWebDbg";
-				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(OTHER_CFLAGS)",
-					"-fpermissive",
-					"-fno-for-scope",
-					"-Dismach_o",
-					"-Dismach-o",
-				);
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = generic;
-				RESMERGER_SOURCES_FORK = data;
-				REZ_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR,
-					$PROJECT_DIR/English.lproj,
-				);
-				WRAPPER_EXTENSION = webclient;
-				ZERO_LINK = NO;
-			};
-			name = Development;
-		};
-		96D3561E0908DEF5006B6436 /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				COPY_PHASE_STRIP = YES;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = /;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../complib";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = $PROJECT_DIR/../complib/u_complib.framework/Headers/coreuni.h;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR/../complib/u_complib.framework/Headers,
-				);
-				INFOPLIST_FILE = $PROJECT_DIR/Info.plist;
-				INSTALL_PATH = "$(PROJECT_DIR)/../_OSXUnicodeWeb";
-				LIBRARY_SEARCH_PATHS = "";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(OTHER_CFLAGS)",
-					"-fpermissive",
-					"-fno-for-scope",
-					"-Dismach_o",
-					"-Dismach-o",
-				);
-				PRODUCT_NAME = generic;
-				RESMERGER_SOURCES_FORK = data;
-				REZ_SEARCH_PATHS = (
-					/Developer/Headers/FlatCarbon,
-					$PROJECT_DIR,
-					$PROJECT_DIR/English.lproj,
-				);
-				SKIP_INSTALL = NO;
-				WRAPPER_EXTENSION = webclient;
-				ZERO_LINK = NO;
 			};
 			name = Deployment;
 		};
@@ -1115,24 +462,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96CA49590907D19700C234AA /* Build configuration list for PBXNativeTarget "WebDesign" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96CA495A0907D19700C234AA /* Development */,
-				96CA495B0907D19700C234AA /* Deployment */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
-		};
-		96CA4E5D0907E8CC00C234AA /* Build configuration list for PBXNativeTarget "UnicodeCore" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96CA4E5E0907E8CC00C234AA /* Development */,
-				96CA4E5F0907E8CC00C234AA /* Deployment */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
-		};
 		96CF455E08FBABD1003AA3FE /* Build configuration list for PBXProject "oExample_OS4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1142,29 +471,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		96D355920908D902006B6436 /* Build configuration list for PBXNativeTarget "UnicodeWebDesign" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96D355930908D902006B6436 /* Development */,
-				96D355940908D902006B6436 /* Deployment */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
-		};
 		96D355F30908DD80006B6436 /* Build configuration list for PBXAggregateTarget "ReleaseBuild" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96D355F40908DD80006B6436 /* Development */,
 				96D355F50908DD80006B6436 /* Deployment */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
-		};
-		96D3561C0908DEF5006B6436 /* Build configuration list for PBXNativeTarget "Webclient" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96D3561D0908DEF5006B6436 /* Development */,
-				96D3561E0908DEF5006B6436 /* Deployment */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;

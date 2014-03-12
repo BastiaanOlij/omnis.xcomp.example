@@ -33,6 +33,7 @@ public:
 
 	// events
 	static	qEvents *			events(void);														// return an array of events meta data
+	virtual void				evClick(qpoint pAt);												// mouse click at this location
 };
 
 #endif
