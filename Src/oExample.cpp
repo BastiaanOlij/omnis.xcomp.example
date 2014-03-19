@@ -27,9 +27,9 @@ oExample * oExample::newObject(void) {
 };
 
 // Do our drawing in here
-void oExample::doPaint(HDC pHDC) {
+void oExample::doPaint() {
 	// call base class to draw background
-	oBaseVisComponent::doPaint(pHDC);
+	oBaseVisComponent::doPaint();
 	
 	// draw something to test..
 	qrect lvRect;
@@ -40,8 +40,10 @@ void oExample::doPaint(HDC pHDC) {
 	lvRect.bottom = 100;
 	
 	HBRUSH lvBrush = GDIgetStockBrush( BLACK_BRUSH );
-	GDIsetTextColor( pHDC, 255 );
-	GDIfillRect( pHDC, &lvRect, lvBrush );	
+	GDIsetTextColor( mHDC, 255 );
+	GDIfillRect( mHDC, &lvRect, lvBrush );
+	
+	drawText(QTEXT("Hello world, this is just some sample text to see if this works."), lvRect, mTextColor, jstCenter, false, true);
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

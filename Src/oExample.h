@@ -20,7 +20,7 @@ public:
 	
 	static oExample *			newObject(void);
 
-	virtual void				doPaint(HDC pHDC);													// Do our drawing in here
+	virtual void				doPaint();															// Do our drawing in here
 
 	// properties
 	static  qProperties *		properties(void);													// return an array of property data
