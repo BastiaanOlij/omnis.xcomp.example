@@ -31,13 +31,16 @@ void oExample::doPaint() {
 	// call base class to draw background
 	oBaseVisComponent::doPaint();
 	
+	qstring	primarydata(mPrimaryData);
+	drawText(primarydata.cString(), mClientRect, mTextColor, jstLeft, false, false);
+	
 	// draw something to test..
 	qrect lvRect;
 	
 	lvRect.left = 10;
-	lvRect.top = 10;
+	lvRect.top = 100;
 	lvRect.right = 100;
-	lvRect.bottom = 100;
+	lvRect.bottom = 200;
 	
 	HBRUSH lvBrush = GDIgetStockBrush( BLACK_BRUSH );
 	GDIsetTextColor( mHDC, 255 );
@@ -51,9 +54,10 @@ void oExample::doPaint() {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Standard properties we should support...
-//ECOproperty oExampleProperties[] = { 
-	//	ID						ResID	Type			Flags					ExFlags	EnumStart	EnumEnd
-//};	
+ECOproperty oExampleProperties[] = { 
+//	ID						ResID	Type			Flags					ExFlags	EnumStart	EnumEnd
+	anumFieldname,			0,		fftCharacter,	EXTD_FLAG_PRIMEDATA,	0,		0,			0				// $dataname, this should be of the type of data we assign here. This is a special property not managed through setProperty and getProperty
+};
 
 // Implement our property meta data static method. Because static members aren't inherited in the normal sense
 // we're implementing our static function on each (sub)class and call the parents static member.
@@ -63,7 +67,7 @@ qProperties * oExample::properties(void) {
 	qProperties *	lvProperties = oBaseVisComponent::properties();
 	
 	// Add the property definition for our visual component here...
-//	lvProperties->addElements(oExampleProperties, sizeof(oExampleProperties) / sizeof(ECOproperty));
+	lvProperties->addElements(oExampleProperties, sizeof(oExampleProperties) / sizeof(ECOproperty));
 	
 	return lvProperties;
 };
