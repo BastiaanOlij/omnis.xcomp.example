@@ -27,9 +27,9 @@ oExample * oExample::newObject(void) {
 };
 
 // Do our drawing in here
-void oExample::doPaint() {
+void oExample::doPaint(EXTCompInfo* pECI) {
 	// call base class to draw background
-	oBaseVisComponent::doPaint();
+	oBaseVisComponent::doPaint(pECI);
 	
 	qstring	primarydata(mPrimaryData);
 	drawText(primarydata.cString(), mClientRect, mTextColor, jstLeft, false, false);
