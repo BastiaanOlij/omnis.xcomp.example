@@ -45,8 +45,9 @@ void oExample::doPaint(EXTCompInfo* pECI) {
 	HBRUSH lvBrush = GDIgetStockBrush( BLACK_BRUSH );
 	GDIsetTextColor( mHDC, 255 );
 	GDIfillRect( mHDC, &lvRect, lvBrush );
-	
-	drawText(QTEXT("Hello world, this is just some sample text to see if this works."), lvRect, mTextColor, jstCenter, false, true);
+
+	qstring exampleText(QTEXT("Hello world, this is just some sample text to see if this works."));
+	drawText(exampleText.cString(), lvRect, mTextColor, jstCenter, false, true);
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
