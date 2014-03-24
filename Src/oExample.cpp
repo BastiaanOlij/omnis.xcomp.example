@@ -159,7 +159,7 @@ qEvents *	oExample::events(void) {
 	return lvEvents;
 };
 
-void	oExample::evClick(qpoint pAt) {
+void	oExample::evClick(qpoint pAt, EXTCompInfo* pECI) {
 	// need to find out if Omnis has an internal ID for its standard evClick
 	ECOsendEvent(mHWnd, 1, 0, 0, EEN_EXEC_IMMEDIATE);	
 };	
