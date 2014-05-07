@@ -24,9 +24,9 @@
 		96CA4E550907E8CC00C234AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		96CA4E5A0907E8CC00C234AA /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
 		96CA4E660907EB0700C234AA /* u_complib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CA4E650907EB0700C234AA /* u_complib.framework */; };
-		AC1FE41C18D07ACD007C0416 /* drawingfunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1FE41718D07ACD007C0416 /* drawingfunctions.cpp */; };
 		AC1FE41D18D07ACD007C0416 /* oBaseNVComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1FE41818D07ACD007C0416 /* oBaseNVComponent.cpp */; };
 		AC1FE41E18D07ACD007C0416 /* oBaseVisComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1FE41A18D07ACD007C0416 /* oBaseVisComponent.cpp */; };
+		AC3440DC191AE0CC00FF606C /* oDrawingCanvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3440DA191AE0CC00FF606C /* oDrawingCanvas.cpp */; };
 		AC3906E317CD7F40007481A5 /* oExample.rc in Resources */ = {isa = PBXBuildFile; fileRef = AC3906D917CD7EA8007481A5 /* oExample.rc */; };
 		AC4B180617CC557D00E9447A /* FrameworkWndProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC4B17FA17CC557D00E9447A /* FrameworkWndProc.cpp */; };
 		AC4B180717CC557D00E9447A /* oBaseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC4B17FB17CC557D00E9447A /* oBaseComponent.cpp */; };
@@ -68,11 +68,12 @@
 		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		96CA4E610907E8CC00C234AA /* oExample.u_xcomp */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oExample.u_xcomp; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CA4E650907EB0700C234AA /* u_complib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = u_complib.framework; path = ../complib/u_complib.framework; sourceTree = SOURCE_ROOT; };
-		AC1FE41718D07ACD007C0416 /* drawingfunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawingfunctions.cpp; path = ../omnis.xcomp.framework/drawingfunctions.cpp; sourceTree = SOURCE_ROOT; };
 		AC1FE41818D07ACD007C0416 /* oBaseNVComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oBaseNVComponent.cpp; path = ../omnis.xcomp.framework/oBaseNVComponent.cpp; sourceTree = SOURCE_ROOT; };
 		AC1FE41918D07ACD007C0416 /* oBaseNVComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oBaseNVComponent.h; path = ../omnis.xcomp.framework/oBaseNVComponent.h; sourceTree = SOURCE_ROOT; };
 		AC1FE41A18D07ACD007C0416 /* oBaseVisComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oBaseVisComponent.cpp; path = ../omnis.xcomp.framework/oBaseVisComponent.cpp; sourceTree = SOURCE_ROOT; };
 		AC1FE41B18D07ACD007C0416 /* oBaseVisComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oBaseVisComponent.h; path = ../omnis.xcomp.framework/oBaseVisComponent.h; sourceTree = SOURCE_ROOT; };
+		AC3440DA191AE0CC00FF606C /* oDrawingCanvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oDrawingCanvas.cpp; path = ../omnis.xcomp.framework/oDrawingCanvas.cpp; sourceTree = SOURCE_ROOT; };
+		AC3440DB191AE0CC00FF606C /* oDrawingCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oDrawingCanvas.h; path = ../omnis.xcomp.framework/oDrawingCanvas.h; sourceTree = SOURCE_ROOT; };
 		AC3906DA17CD7EA8007481A5 /* English */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; name = English; path = English.lproj/oExample.rc; sourceTree = "<group>"; };
 		AC4B17FA17CC557D00E9447A /* FrameworkWndProc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FrameworkWndProc.cpp; path = ../omnis.xcomp.framework/FrameworkWndProc.cpp; sourceTree = SOURCE_ROOT; };
 		AC4B17FB17CC557D00E9447A /* oBaseComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oBaseComponent.cpp; path = ../omnis.xcomp.framework/oBaseComponent.cpp; sourceTree = SOURCE_ROOT; };
@@ -171,7 +172,8 @@
 		AC4B17F417CC555400E9447A /* omnis.xcomp.frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AC1FE41718D07ACD007C0416 /* drawingfunctions.cpp */,
+				AC3440DA191AE0CC00FF606C /* oDrawingCanvas.cpp */,
+				AC3440DB191AE0CC00FF606C /* oDrawingCanvas.h */,
 				AC1FE41818D07ACD007C0416 /* oBaseNVComponent.cpp */,
 				AC1FE41918D07ACD007C0416 /* oBaseNVComponent.h */,
 				AC1FE41A18D07ACD007C0416 /* oBaseVisComponent.cpp */,
@@ -266,9 +268,9 @@
 				AC4B181117CC55A800E9447A /* example.cpp in Sources */,
 				AC4B181217CC55A800E9447A /* oExample.cpp in Sources */,
 				AC4B181317CC55A800E9447A /* oNVExample.cpp in Sources */,
-				AC1FE41C18D07ACD007C0416 /* drawingfunctions.cpp in Sources */,
 				AC1FE41D18D07ACD007C0416 /* oBaseNVComponent.cpp in Sources */,
 				AC1FE41E18D07ACD007C0416 /* oBaseVisComponent.cpp in Sources */,
+				AC3440DC191AE0CC00FF606C /* oDrawingCanvas.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,7 +32,7 @@ void oExample::doPaint(EXTCompInfo* pECI) {
 	oBaseVisComponent::doPaint(pECI);
 	
 	qstring	primarydata(mPrimaryData);
-	drawText(primarydata.cString(), mClientRect, mTextColor, jstLeft, false, false);
+	mCanvas->drawText(primarydata.cString(), mClientRect, mTextColor, jstLeft, false, false);
 	
 	// draw something to test..
 	qrect lvRect;
@@ -42,12 +42,10 @@ void oExample::doPaint(EXTCompInfo* pECI) {
 	lvRect.right = 100;
 	lvRect.bottom = 200;
 	
-	HBRUSH lvBrush = GDIgetStockBrush( BLACK_BRUSH );
-	GDIsetTextColor( mHDC, 255 );
-	GDIfillRect( mHDC, &lvRect, lvBrush );
+	mCanvas->drawRect(lvRect, GDI_COLOR_QBLUE, GDI_COLOR_QBLUE);
 
 	qstring exampleText(QTEXT("Hello world, this is just some sample text to see if this works."));
-	drawText(exampleText.cString(), lvRect, mTextColor, jstCenter, false, true);
+	mCanvas->drawText(exampleText.cString(), lvRect, mTextColor, jstCenter, false, true);
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
