@@ -1,5 +1,3 @@
-oExample.xcodeproj/basolij.perspectivev3
-oExample.xcodeproj/basolij.pbxuser
 *.ncb
 /*.suo
 /*.sln
@@ -7,3 +5,8 @@ oExample.xcodeproj/basolij.pbxuser
 Release
 UDeb
 URel
+basolij.pbxuser
+basolij.perspectivev3
+oExample_OS6.xcodeproj/project.xcworkspace
+oExample_OS6.xcodeproj/xcuserdata
+build
