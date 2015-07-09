@@ -87,15 +87,16 @@ qbool oExample::setProperty(qlong pPropID,EXTfldval &pNewValue,EXTCompInfo* pECI
 };
 
 // get the value of a property
-void oExample::getProperty(qlong pPropID,EXTfldval &pGetValue,EXTCompInfo* pECI) {
+qbool oExample::getProperty(qlong pPropID,EXTfldval &pGetValue,EXTCompInfo* pECI) {
 	// most anum properties are managed by Omnis but some we need to do ourselves...
 	
 	switch (pPropID) {
 //		case YourPropertyID: {
 //			pNewValue.setLong(1234);
+//          return qtrue;
 //		}; break;
 		default:
-			oBaseVisComponent::getProperty(pPropID, pGetValue, pECI);
+			return oBaseVisComponent::getProperty(pPropID, pGetValue, pECI);
 			
 			break;
 	};
