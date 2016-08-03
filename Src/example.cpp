@@ -11,11 +11,11 @@
 #include "example.h"
 
 qshort	mainlib::major() {
-	return 1;
+	return OMNISSDK;
 };
 
 qshort	mainlib::minor() {
-	return 1;
+	return 103;
 };
 
 /* see omnis.xcomp.framework\oXCompLib.h for methods to implement here */ 
