@@ -347,6 +347,7 @@
 					"-fshort-wchar",
 					"-Dismach_o",
 					"-Wno-comment",
+					"-DOMNISSDK=61",
 				);
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = "";
@@ -387,6 +388,7 @@
 					"-fshort-wchar",
 					"-Dismach_o",
 					"-Wno-comment",
+					"-DOMNISSDK=61",
 				);
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PRODUCT_NAME = oExample;
