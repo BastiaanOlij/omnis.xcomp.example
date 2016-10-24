@@ -13,11 +13,11 @@
 
 // we only implement our constructors/destructors to get some logging going to find out if all is well...
 oNVExample::oNVExample(void) {
-	addToTraceLog("Constructing oNVExample %li",(uint)this);
+//	addToTraceLog("Constructing oNVExample %li",(uint)this);
 };
 
 oNVExample::~oNVExample(void) {
-	addToTraceLog("Destructing oNVExample %li",(uint)this);	
+//	addToTraceLog("Destructing oNVExample %li",(uint)this);
 };
 
 

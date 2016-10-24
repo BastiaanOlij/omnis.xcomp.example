@@ -12,11 +12,11 @@
 
 // we only implement our constructors/destructors to get some logging going to find out if all is well...
 oExample::oExample(void) {
-	addToTraceLog("Constructing oExample %li",(uint)this);
+//	addToTraceLog("Constructing oExample %li",(uint)this);
 };
 
 oExample::~oExample(void) {
-	addToTraceLog("Destructing oExample %li",(uint)this);	
+//	addToTraceLog("Destructing oExample %li",(uint)this);
 };
 
 // instantiate a new object
