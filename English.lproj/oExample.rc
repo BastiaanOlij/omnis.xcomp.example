@@ -13,5 +13,3 @@ BEGIN
 	8102			"$evCallback:$evCallback() this method gets called by $testCallback."
 	31000			"FrameworkWndProc"
 END
-
-
