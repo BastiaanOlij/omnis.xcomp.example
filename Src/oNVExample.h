@@ -17,20 +17,20 @@ class oNVExample : public oBaseNVComponent {
 public:
 	oNVExample(void);
 	~oNVExample(void);
-		
-	static oNVExample *			newObject(void);
-	
-	virtual void				copyObject(oBaseNVComponent *pCopy);								// create a copy of pCopy, this MUST be implemented in a subclass
+
+	static oNVExample *newObject(void);
+
+	virtual void copyObject(oBaseNVComponent *pCopy); // create a copy of pCopy, this MUST be implemented in a subclass
 
 	// properties
-	static  qProperties *		properties(void);													// return an array of property data
-	
+	static qProperties *properties(void); // return an array of property data
+
 	// methods
-	static  qMethods *			methods(void);														// return array of method meta data
-	virtual int					invokeMethod(qlong pMethodId, EXTCompInfo* pECI);					// invoke a method
+	static qMethods *methods(void); // return array of method meta data
+	virtual int invokeMethod(qlong pMethodId, EXTCompInfo *pECI); // invoke a method
 
 	// events
-	static	qEvents *			events(void);														// return an array of events meta data	
+	static qEvents *events(void); // return an array of events meta data
 };
 
 #endif
