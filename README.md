@@ -3,12 +3,7 @@ omnis.xcomp.example
 
 Example xcomp made with omnis.xcomp.framework
 
-Directories are setup relative and assume the framework is installed within the Omnis SDK folders:
-- Omnis SDK
- - complib
- - omnis.xcomp.framework
- - omnis.xcomp.example
- - ...
+Our framework is included as a submodule so make sure to clone recursively or run `git submodule update --init --recursive`
 
 Compiling under Mac OS X
 ========================

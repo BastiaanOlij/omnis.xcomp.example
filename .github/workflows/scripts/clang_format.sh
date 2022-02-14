@@ -16,6 +16,8 @@ while IFS= read -rd '' f; do
         continue
     elif [[ "$f" == "examples"* ]]; then
         continue
+    elif [[ "$f" == "thirdparty"* ]]; then
+        continue
     fi
     for extension in ${CLANG_FORMAT_FILE_EXTS[@]}; do
         if [[ "$f" == *"$extension" ]]; then
