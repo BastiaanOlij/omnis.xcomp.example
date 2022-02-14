@@ -11,8 +11,8 @@
 #ifndef exampleh
 #define exampleh
 
-#include "omnis.xcomp.framework.h"
-#include "oNVExample.h"
 #include "oExample.h"
+#include "oNVExample.h"
+#include "omnis.xcomp.framework.h"
 
 #endif
