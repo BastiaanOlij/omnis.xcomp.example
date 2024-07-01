@@ -33,10 +33,10 @@
     <ClCompile Include="Src\oNVExample.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="English.lproj\oExample.rc" />
+    <ResourceCompile Include="en.lproj\oExample.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="English.lproj\oExample.bmp" />
+    <Image Include="en.lproj\oExample.bmp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="example.DEF" />
