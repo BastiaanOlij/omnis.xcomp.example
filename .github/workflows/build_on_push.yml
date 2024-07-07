@@ -69,7 +69,7 @@ jobs:
         if: matrix.platform == 'windows'
 
       - name: Upload build files (artifacts) (MacOS)
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: xcomp-macos
           path: |
