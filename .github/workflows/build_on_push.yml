@@ -21,17 +21,17 @@ jobs:
           # faster testing by disabling the others...
           - os: macos-latest
             platform: macos
-          #- os: windows-latest
-          #  platform: windows
+          - os: windows-latest
+            platform: windows
 
     steps:
       - name: Setup actions
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           submodules: 'recursive'
 
       - name: Add msbuild to PATH (Windows)
-        uses: microsoft/setup-msbuild@v1.1
+        uses: microsoft/setup-msbuild@v2
         with:
           msbuild-architecture: x64
         if: matrix.platform == 'windows'
@@ -47,10 +47,14 @@ jobs:
 
       - name: Get SDK (Windows)
         run: |
-          omnis_sdk=$(curl -s "https://filestore.omnis.net/omnisrestservlet/ws/5975/api/file_browser/browser/file?file=/OmnisStudio/Studio1100_36251/SDK/Windows-SDK-11-x64.zip&browsertype=0&odppid=blank" | awk {'print $1'})
-          curl -O "$omnis_sdk"
-          tar -xf Windows-SDK-11-x64.zip
-          xcopy /E /I Windows-SDK-11-x64\* thirdparty\omnis.sdk\win\
+          $response = Invoke-WebRequest -uri "https://filestore.omnis.net/omnisrestservlet/ws/5975/api/file_browser/browser/file?file=/OmnisStudio/Studio1100_36251/SDK/Windows-SDK-11-36251-x64.zip&browsertype=0&odppid=blank"
+          $omnissdk = [System.Text.Encoding]::UTF8.GetString($response.content)
+          Invoke-WebRequest -uri $omnissdk -OutFile WindowsSDK.zip
+          mkdir WindowsSDK
+          cd WindowsSDK
+          tar -xf ../WindowsSDK.zip
+          cd ..
+          xcopy /E /I WindowsSDK\* thirdparty\omnis.sdk\win\
         if: matrix.platform == 'windows'
 
       - name: Build (MacOS)
@@ -61,6 +65,7 @@ jobs:
       - name: Build (Windows)
         run: |
           MSBuild example.vcxproj /property:Platform=x64 /property:Configuration="Release"
+          dir build/Release_x64/xcomp/
         if: matrix.platform == 'windows'
 
       - name: Upload build files (artifacts) (MacOS)
@@ -72,11 +77,11 @@ jobs:
         if: matrix.platform == 'macos'
 
       - name: Upload build files (artifacts) (Windows)
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: xcomp-windows
           path: |
-            URel64/example.dll
+            build/Release_x64/xcomp/example.dll
         if: matrix.platform == 'windows'
 
 # This job collects the build output and assembles the final asset (artifact)
@@ -89,7 +94,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Download all workflow run artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
       - name: Copy files to destination
         run: |
           mkdir oExample
