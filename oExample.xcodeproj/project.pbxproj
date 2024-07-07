@@ -44,7 +44,7 @@
 /* Begin PBXFileReference section */
 		089C167EFE841241C02AAC07 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		304CD2D61CB7F5190096035F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		62173718279B1A2D008C41A4 /* omnis.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = omnis.xcconfig; sourceTree = "<group>"; };
+		62173718279B1A2D008C41A4 /* omnis.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = mac/omnis.xcconfig; sourceTree = "<group>"; };
 		96CA4E650907EB0700C234AA /* complib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = complib.framework; path = thirdparty/omnis.sdk/mac/complib/complib.framework; sourceTree = SOURCE_ROOT; };
 		DDD258BC092896A5006B6BC3 /* oExample.u_xcomp */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oExample.u_xcomp; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1E766F2C1A86770095FAB9 /* oBaseNVComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oBaseNVComponent.h; path = thirdparty/omnis.xcomp.framework/oBaseNVComponent.h; sourceTree = "<group>"; };

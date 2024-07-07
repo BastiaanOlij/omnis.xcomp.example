@@ -1,50 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="thirdparty\omnis.xcomp.framework\FrameworkWndProc.cpp">
-      <Filter>omnis.xcomp.framework</Filter>
-    </ClCompile>
-    <ClCompile Include="thirdparty\omnis.xcomp.framework\oBaseComponent.cpp">
-      <Filter>omnis.xcomp.framework</Filter>
-    </ClCompile>
-    <ClCompile Include="thirdparty\omnis.xcomp.framework\oBaseNVComponent.cpp">
-      <Filter>omnis.xcomp.framework</Filter>
-    </ClCompile>
-    <ClCompile Include="thirdparty\omnis.xcomp.framework\oBaseVisComponent.cpp">
-      <Filter>omnis.xcomp.framework</Filter>
-    </ClCompile>
-    <ClCompile Include="thirdparty\omnis.xcomp.framework\oDrawingCanvas.cpp">
-      <Filter>omnis.xcomp.framework</Filter>
-    </ClCompile>
-    <ClCompile Include="thirdparty\omnis.xcomp.framework\oRGBAImage.cpp">
-      <Filter>omnis.xcomp.framework</Filter>
-    </ClCompile>
-    <ClCompile Include="thirdparty\omnis.xcomp.framework\oUTF8.cpp">
-      <Filter>omnis.xcomp.framework</Filter>
-    </ClCompile>
-    <ClCompile Include="thirdparty\omnis.xcomp.framework\oXCompLib.cpp">
-      <Filter>omnis.xcomp.framework</Filter>
-    </ClCompile>
-    <ClCompile Include="thirdparty\omnis.xcomp.framework\qString.cpp">
-      <Filter>omnis.xcomp.framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Src\example.cpp" />
-    <ClCompile Include="Src\oExample.cpp" />
-    <ClCompile Include="Src\oNVExample.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="en.lproj\oExample.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="en.lproj\oExample.bmp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="example.DEF" />
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="omnis.xcomp.framework">
-      <UniqueIdentifier>{f46b3caa-59da-41fa-aea0-0fc061e6e6e5}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="thirdparty\omnis.xcomp.framework\oBaseComponent.h">
@@ -80,8 +37,73 @@
     <ClInclude Include="thirdparty\omnis.xcomp.framework\xCompStandardIncludes.h">
       <Filter>omnis.xcomp.framework</Filter>
     </ClInclude>
-    <ClInclude Include="Src\example.h" />
-    <ClInclude Include="Src\oExample.h" />
-    <ClInclude Include="Src\oNVExample.h" />
+    <ClInclude Include="Src\example.h">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClInclude Include="Src\oExample.h">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClInclude Include="Src\oNVExample.h">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{042c8f37-28e8-4eac-833d-4d8cd3ba4f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{10e9e5b8-e8a7-4a18-a057-3e0006209318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="omnis.xcomp.framework">
+      <UniqueIdentifier>{f46b3caa-59da-41fa-aea0-0fc061e6e6e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="thirdparty\omnis.xcomp.framework\FrameworkWndProc.cpp">
+      <Filter>omnis.xcomp.framework</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\omnis.xcomp.framework\oBaseComponent.cpp">
+      <Filter>omnis.xcomp.framework</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\omnis.xcomp.framework\oBaseNVComponent.cpp">
+      <Filter>omnis.xcomp.framework</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\omnis.xcomp.framework\oBaseVisComponent.cpp">
+      <Filter>omnis.xcomp.framework</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\omnis.xcomp.framework\oDrawingCanvas.cpp">
+      <Filter>omnis.xcomp.framework</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\omnis.xcomp.framework\oRGBAImage.cpp">
+      <Filter>omnis.xcomp.framework</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\omnis.xcomp.framework\oUTF8.cpp">
+      <Filter>omnis.xcomp.framework</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\omnis.xcomp.framework\oXCompLib.cpp">
+      <Filter>omnis.xcomp.framework</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\omnis.xcomp.framework\qString.cpp">
+      <Filter>omnis.xcomp.framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\example.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\oExample.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\oNVExample.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\oExample.bmp">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\oExample.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
